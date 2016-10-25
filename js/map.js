@@ -5,9 +5,27 @@ Kartverket.addTo(map);
 
 
 var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
-var Norge = L.geoJson.ajax("data/fylker.geojson", {style:myStyle});
-
+var Norge = L.geoJson.ajax("data/norge2.geojson", {style:myStyle});
+Norge.toGeoJSON();
 // Norge.addTo(map);
+
+
+
+var polygon2 = {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-2.021484375, 57.61010702068388],
+      [-2.021484375, 72.18180355624855],
+      [33.83789062499999, 72.18180355624855],
+      [33.83789062499999, 57.61010702068388],
+      [-2.021484375, 57.61010702068388]
+    ]]
+  }
+};
+// L.geoJSON(polygon2).addTo(map);
 
 
 
@@ -35,10 +53,8 @@ navigator.geolocation.getCurrentPosition(onSuccess,
     console.log(buffer);
     console.log(Norge);
     var geojsonbuffer= L.geoJson(buffer, {style:bufferStyle});
-    geojsonbuffer.addTo(map);
+    // geojsonbuffer.addTo(map);
     console.log(geojsonbuffer);
-    JSON.stringify(Norge);
-    console.log(Norge);
     var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
     // layers.addTo(map);
     // geojsonbuffer.addTo(map);
@@ -47,7 +63,9 @@ navigator.geolocation.getCurrentPosition(onSuccess,
     // console.log(turf.featurecollection);
     // var result = turf.featurecollection([buffer.features, point]);
 
-    // var differenced = turf.difference(geojsonbuffer, Norge)
+    var differenced = turf.difference(polygon2, buffer);
+    console.log(differenced);
+    L.geoJSON(differenced).addTo(map);
     // differenced.addTo(map);
 
 }
