@@ -49,23 +49,21 @@ navigator.geolocation.getCurrentPosition(onSuccess,
     }
 };
     var bufferStyle = {"color": "#ff0000"};
-    var buffer = turf.buffer(point,5000,'meters');
+    var buffer = turf.buffer(point,50000,'meters');
     console.log(buffer);
     console.log(Norge);
     var geojsonbuffer= L.geoJson(buffer, {style:bufferStyle});
     // geojsonbuffer.addTo(map);
-    console.log(geojsonbuffer);
     var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
     // layers.addTo(map);
     // geojsonbuffer.addTo(map);
     // var bufferLayer = L.GeoJSON(buffer).addTo(map);
-    // buffer.setGeoJSON();
     // console.log(turf.featurecollection);
     // var result = turf.featurecollection([buffer.features, point]);
 
-    var differenced = turf.difference(polygon2, buffer);
-    console.log(differenced);
-    L.geoJSON(differenced).addTo(map);
+    // var differenced = turf.difference(polygon2, buffer);
+    // L.geoJSON(differenced, {style:myStyle}).addTo(map);
+    differenciate(buffer, polygon2);
     // differenced.addTo(map);
 
 }
@@ -73,4 +71,8 @@ function onError(){
   alert('Noe gikk feil');
 }
 
+function differenciate(buffer, difflayer){
+  var differenced = turf.differece(difflayer, buffer);
+  L.geoJSON(differenced, {style:myStyle}).addTo(map);
+}
 // TODO: Add leaflet mini map
