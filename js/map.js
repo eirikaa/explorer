@@ -10,26 +10,6 @@ Norge.toGeoJSON();
 // Norge.addTo(map);
 
 
-
-var polygon2 = {
-  "type": "Feature",
-  "properties": {},
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [[
-      [-2.021484375, 57.61010702068388],
-      [-2.021484375, 72.18180355624855],
-      [33.83789062499999, 72.18180355624855],
-      [33.83789062499999, 57.61010702068388],
-      [-2.021484375, 57.61010702068388]
-    ]]
-  }
-};
-// L.geoJSON(polygon2).addTo(map);
-
-
-
-
 navigator.geolocation.getCurrentPosition(onSuccess,
                                          onError,
                                          {maximumAge: 10000, timeout: 5000, enableHighAccuracy: true,
@@ -63,7 +43,7 @@ navigator.geolocation.getCurrentPosition(onSuccess,
 
     // var differenced = turf.difference(polygon2, buffer);
     // L.geoJSON(differenced, {style:myStyle}).addTo(map);
-    differenciate(buffer, polygon2);
+    polygon2 = differenciate(buffer, polygon2 );
     // differenced.addTo(map);
 
 }
@@ -71,8 +51,24 @@ function onError(){
   alert('Noe gikk feil');
 }
 
+var polygon2 = {
+  "type": "Feature",
+  "properties": {},
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [-2.021484375, 57.61010702068388],
+      [-2.021484375, 72.18180355624855],
+      [33.83789062499999, 72.18180355624855],
+      [33.83789062499999, 57.61010702068388],
+      [-2.021484375, 57.61010702068388]
+    ]]
+  }
+};
+// L.geoJSON(polygon2).addTo(map);
 function differenciate(buffer, difflayer){
   var differenced = turf.differece(difflayer, buffer);
   L.geoJSON(differenced, {style:myStyle}).addTo(map);
+  return differenced;
 }
 // TODO: Add leaflet mini map
