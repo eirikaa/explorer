@@ -5,8 +5,8 @@ Kartverket.addTo(map);
 
 
 var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
-var Norge = L.geoJson.ajax("data/norge2.geojson", {style:myStyle});
-Norge.toGeoJSON();
+// var Norge = L.geoJson.ajax("data/norge2.geojson", {style:myStyle});
+// Norge.toGeoJSON();
 // Norge.addTo(map);
 
 
@@ -31,20 +31,12 @@ navigator.geolocation.getCurrentPosition(onSuccess,
     var bufferStyle = {"color": "#ff0000"};
     var buffer = turf.buffer(point,50000,'meters');
     console.log(buffer);
-    console.log(Norge);
     var geojsonbuffer= L.geoJson(buffer, {style:bufferStyle});
-    // geojsonbuffer.addTo(map);
-    var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
-    // layers.addTo(map);
-    // geojsonbuffer.addTo(map);
-    // var bufferLayer = L.GeoJSON(buffer).addTo(map);
-    // console.log(turf.featurecollection);
-    // var result = turf.featurecollection([buffer.features, point]);
-
+    // var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
+    // layers.addTo(map)
     // var differenced = turf.difference(polygon2, buffer);
     // L.geoJSON(differenced, {style:myStyle}).addTo(map);
-    polygon2 = differenciate(buffer, polygon2 );
-    // differenced.addTo(map);
+    polygon2 = differenciate(buffer, polygon2);
 
 }
 function onError(){
@@ -67,7 +59,7 @@ var polygon2 = {
 };
 // L.geoJSON(polygon2).addTo(map);
 function differenciate(buffer, difflayer){
-  var differenced = turf.differece(difflayer, buffer);
+  var differenced = turf.difference(difflayer, buffer);
   L.geoJSON(differenced, {style:myStyle}).addTo(map);
   return differenced;
 }
