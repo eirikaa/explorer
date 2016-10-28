@@ -4,7 +4,7 @@ var Kartverket = new L.TileLayer.Kartverket("topo2graatone");
 Kartverket.addTo(map);
 
 
-var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
+var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 0.7};
 // var Norge = L.geoJson.ajax("data/norge2.geojson", {style:myStyle});
 // Norge.toGeoJSON();
 // Norge.addTo(map);
@@ -30,7 +30,6 @@ navigator.geolocation.getCurrentPosition(onSuccess,
 };
     var bufferStyle = {"color": "#ff0000"};
     var buffer = turf.buffer(point,50000,'meters');
-    console.log(buffer);
     var geojsonbuffer= L.geoJson(buffer, {style:bufferStyle});
     // var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
     // layers.addTo(map)
@@ -63,4 +62,27 @@ function differenciate(buffer, difflayer){
   L.geoJSON(differenced, {style:myStyle}).addTo(map);
   return differenced;
 }
+
+var pos = L.control.coordinates({
+  position:"bottomleft",
+  decimals:4,
+  decimalSeperator:",",
+  labelTemplateLat:"Latitude: {y}",
+  labelTemplateLng:"Longitude {x}",
+  useLatLngOrder: true,
+}).addTo(map);
+
+
+
+map.on("mousemove", function(mouseEvent){
+  onSuccess2(mouseEvent.latlng);
+});
+
+function onSuccess2(latlng){
+  
+}
+
+// var pos2= pos.toGeoJSON();
+// L.extend(json.properties, point.properties);
+
 // TODO: Add leaflet mini map
