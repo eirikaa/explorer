@@ -4,6 +4,18 @@ var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.gr
     layers: 'topo2_graatone_WMS'
     }).addTo(map);
 
+    var parks = L.esri.featureLayer({
+      url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
+      style: function () {
+        return { color: "#70ca49", weight: 2 };
+      }
+    }).addTo(map);
+
+    var popupTemplate = "<h3>{Navn}";
+
+    parks.bindPopup(function(e) {
+      return L.Util.template(popupTemplate, e.feature.properties)
+    });
 
 var overlay = L.featureGroup().addTo(map);
 /*
@@ -38,7 +50,7 @@ function onError(){
   alert('Noe gikk feil');
 }
 */
-var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 0.7};
+var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
 
 var polygon2 = {
 
