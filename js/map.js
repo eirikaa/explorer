@@ -4,6 +4,8 @@ var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.gr
     layers: 'topo2_graatone_WMS'
     }).addTo(map);
 
+var rema = L.geoJson.ajax("data/rema 1000.geojson");
+// rema.addTo(map);
 
 var overlay = L.featureGroup().addTo(map);
 /*
@@ -55,6 +57,9 @@ var polygon2 = {
   }
 };
 
+const boxArea = turf.area(polygon2);
+const norwayArea = 325928052000;
+
 var mask = L.geoJSON(polygon2, {style: myStyle}).getLayers()[0];
 
 
@@ -97,6 +102,12 @@ function onSuccess2(latlng){
 
     mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
     overlay.addLayer(mask);
+    console.log(turf.area(temp_difflayer));
+    console.log(boxArea);
+    var exploredArea = (boxArea - turf.area(temp_difflayer))
+    console.log(exploredArea);
+    console.log((exploredArea/norwayArea)*100);
+    // console.log(area);
 
 }
 
