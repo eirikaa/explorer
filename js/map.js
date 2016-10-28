@@ -1,7 +1,8 @@
 var map = L.map('map').setView([59.66, 10.77], 5);
 // L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-var Kartverket = new L.TileLayer.Kartverket("topo2graatone");
-Kartverket.addTo(map);
+var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.graatone?', {
+    layers: 'topo2_graatone_WMS'
+    }).addTo(map);
 
 
 var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
@@ -13,7 +14,7 @@ var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
 navigator.geolocation.getCurrentPosition(onSuccess,
                                          onError,
                                          {maximumAge: 10000, timeout: 5000, enableHighAccuracy: true,
-                                         interval: 6000})
+                                         interval: 6000});
 
   function onSuccess(pos){
   var lat = pos.coords.latitude;
