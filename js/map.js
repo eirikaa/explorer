@@ -114,11 +114,11 @@ function onSuccess2(latlng){
     var projmask = reproject(
         mask.toGeoJSON(),
         "WGS84", "EPSG:3857");
-    var temp_difflayer = differenciate(buffer, projmask)
+    var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
     console.log(temp_difflayer);
     overlay.removeLayer(mask);
 
-    mask = L.geoJSON(reproject(temp_difflayer, "EPSG:3857", "WGS84"), {style: myStyle}).getLayers()[0];
+    mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
     overlay.addLayer(mask);
     console.log(turf.area(temp_difflayer));
     console.log(boxArea);
@@ -128,8 +128,6 @@ function onSuccess2(latlng){
     // console.log(area);
 
 }
-
-
 
 
 
