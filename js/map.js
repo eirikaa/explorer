@@ -55,7 +55,7 @@ var polygon2 = {
   }
 };
 
-var mask = L.geoJSON(polygon2).getLayers()[0];
+var mask = L.geoJSON(polygon2, {style: myStyle}).getLayers()[0];
 
 
 overlay.addLayer(mask);
@@ -95,7 +95,7 @@ function onSuccess2(latlng){
     console.log(temp_difflayer);
     overlay.removeLayer(mask);
 
-    mask = L.geoJSON(temp_difflayer).getLayers()[0];
+    mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
     overlay.addLayer(mask);
 
 }
