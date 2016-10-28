@@ -4,8 +4,13 @@ var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.gr
     layers: 'topo2_graatone_WMS'
     }).addTo(map);
 
-var rema = L.geoJson.ajax("data/rema 1000.geojson");
-// rema.addTo(map);
+var remaIcon = L.icon({
+  iconUrl: 'icon/rema1000.png',
+  iconSize:     [15, 15]
+});
+
+var rema = L.geoJson.ajax("data/rema 1000.geojson", {icon: remaIcon}).addTo(map);
+L.marker([10, 60], {icon: remaIcon}).addTo(map);
 var parks = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
   style: function () {
