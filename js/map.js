@@ -6,6 +6,18 @@ var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.gr
 
 var rema = L.geoJson.ajax("data/rema 1000.geojson");
 // rema.addTo(map);
+var parks = L.esri.featureLayer({
+  url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
+  style: function () {
+    return { color: "#70ca49", weight: 2 };
+  }
+}).addTo(map);
+
+var popupTemplate = "<h3>{Navn}";
+
+parks.bindPopup(function(e) {
+  return L.Util.template(popupTemplate, e.feature.properties)
+});
 
 var overlay = L.featureGroup().addTo(map);
 /*
@@ -40,9 +52,10 @@ function onError(){
   alert('Noe gikk feil');
 }
 */
-var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 0.7};
+var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
 
 var polygon2 = {
+
   "type": "Feature",
   "properties": {},
   "geometry": {
@@ -71,10 +84,9 @@ overlay.addLayer(mask);
 //var difflayer = polygon2;
 function differenciate(buffer, difflayer){
   // var geojson = difflayer.toGeoJSON();
-  var differenced = turf.difference(difflayer, buffer);
-  // difflayer.clearLayers();
+    // difflayer.clearLayers();
   // difflayer.addData(differenced);
-  return differenced;
+  return turf.difference(difflayer, buffer);
 }
 
 
@@ -84,23 +96,29 @@ map.on("mousemove", function(mouseEvent){
 });
 
 function onSuccess2(latlng){
-
-  var point = {
+  var point = reproject(
+  {
     "type": "Feature",
     "properties": {},
     "geometry": {
         "type": "Point",
         "coordinates": [latlng.lng, latlng.lat]
     }
-  }
+  },
+    "WGS84", "EPSG:3857");
+
+
     var bufferStyle = {"color": "#ff0000"};
-    var buffer = turf.buffer(point,50000,'meters');
+    var buffer = turf.buffer(point,5000000);
     // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
-    var temp_difflayer = differenciate(buffer, mask.toGeoJSON());
+    var projmask = reproject(
+        mask.toGeoJSON(),
+        "WGS84", "EPSG:3857");
+    var temp_difflayer = differenciate(buffer, projmask)
     console.log(temp_difflayer);
     overlay.removeLayer(mask);
 
-    mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
+    mask = L.geoJSON(reproject(temp_difflayer, "EPSG:3857", "WGS84"), {style: myStyle}).getLayers()[0];
     overlay.addLayer(mask);
     console.log(turf.area(temp_difflayer));
     console.log(boxArea);
@@ -121,7 +139,7 @@ var pos = L.control.coordinates({
   decimalSeperator:",",
   labelTemplateLat:"Latitude: {y}",
   labelTemplateLng:"Longitude {x}",
-  useLatLngOrder: true,
+  useLatLngOrder: true
 }).addTo(map);
 
 
