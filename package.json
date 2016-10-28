@@ -5,11 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "@turf/turf": "^3.5.2",
-    "L.TileLayer.Kartverket": "^1.0.2",
     "leaflet-ajax": "^2.0.0",
     "leaflet-mouse-position": "^1.0.1",
     "leaflet.coordinates": "^0.1.5",
-    "leaflet.locatecontrol": "^0.55.0"
+    "reproject": "^1.1.1"
   },
   "devDependencies": {},
   "scripts": {
