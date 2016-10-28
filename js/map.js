@@ -5,12 +5,8 @@ var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.gr
     }).addTo(map);
 
 
-var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 0.7};
-// var Norge = L.geoJson.ajax("data/norge2.geojson", {style:myStyle});
-// Norge.toGeoJSON();
-// Norge.addTo(map);
-
-
+var overlay = L.featureGroup().addTo(map);
+/*
 navigator.geolocation.getCurrentPosition(onSuccess,
                                          onError,
                                          {maximumAge: 10000, timeout: 5000, enableHighAccuracy: true,
@@ -29,19 +25,20 @@ navigator.geolocation.getCurrentPosition(onSuccess,
         "coordinates": [lon, lat]
     }
 };
-    var bufferStyle = {"color": "#ff0000"};
     var buffer = turf.buffer(point,50000,'meters');
     var geojsonbuffer= L.geoJson(buffer, {style:bufferStyle});
     // var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
     // layers.addTo(map)
-    // var differenced = turf.difference(polygon2, buffer);
-    // L.geoJSON(differenced, {style:myStyle}).addTo(map);
-    polygon2 = differenciate(buffer, polygon2);
+    var differenced = turf.difference(polygon2, buffer);
+    L.geoJSON(differenced, {style:myStyle}).addTo(map);
+    // polygon2 = differenciate(buffer, polygon2);
 
 }
 function onError(){
   alert('Noe gikk feil');
 }
+*/
+var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 0.7};
 
 var polygon2 = {
   "type": "Feature",
@@ -57,12 +54,55 @@ var polygon2 = {
     ]]
   }
 };
+
+var mask = L.geoJSON(polygon2).getLayers()[0];
+
+
+overlay.addLayer(mask);
+
+
 // L.geoJSON(polygon2).addTo(map);
+// var difflayer = L.geoJSON(polygon2, {style:myStyle}).addTo(map);
+//var difflayer = polygon2;
 function differenciate(buffer, difflayer){
+  // var geojson = difflayer.toGeoJSON();
   var differenced = turf.difference(difflayer, buffer);
-  L.geoJSON(differenced, {style:myStyle}).addTo(map);
+  // difflayer.clearLayers();
+  // difflayer.addData(differenced);
   return differenced;
 }
+
+
+
+map.on("mousemove", function(mouseEvent){
+  onSuccess2(mouseEvent.latlng);
+});
+
+function onSuccess2(latlng){
+
+  var point = {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [latlng.lng, latlng.lat]
+    }
+  }
+    var bufferStyle = {"color": "#ff0000"};
+    var buffer = turf.buffer(point,50000,'meters');
+    // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
+    var temp_difflayer = differenciate(buffer, mask.toGeoJSON());
+    console.log(temp_difflayer);
+    overlay.removeLayer(mask);
+
+    mask = L.geoJSON(temp_difflayer).getLayers()[0];
+    overlay.addLayer(mask);
+
+}
+
+
+
+
 
 var pos = L.control.coordinates({
   position:"bottomleft",
@@ -74,25 +114,7 @@ var pos = L.control.coordinates({
 }).addTo(map);
 
 
-
-map.on("mousemove", function(mouseEvent){
-  onSuccess2(mouseEvent.latlng);
-});
-
-function onSuccess2(latlng){
-  var point = {
-    "type": "Feature",
-    "properties": {},
-    "geometry": {
-        "type": "Point",
-        "coordinates": [latlng.lng, latlng.lat]
-    }
-  }
-    var bufferStyle = {"color": "#ff0000"};
-    var buffer = turf.buffer(point,50000,'meters');
-    L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
-    // polygon2 = differenciate(buffer, polygon2);
-}
+var bufferStyle = {"color": "#ff0000"};
 
 // var pos2= pos.toGeoJSON();
 // L.extend(json.properties, point.properties);
