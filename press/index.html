@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>#hack4no</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Explorers presents Explorer</h1>
+					<p>
+						<small>Bjørn Lie Rapp, Stian Rostad, Joakim Husefest og Eirik Aabøe</small>
+					</p>
+				</section>
+
+				<section>
+					<h2> Et digitalt skrapekart </h2>
+				</section>
+
+				<section>
+					<h2> Et bilde </h2>
+				</section>
+
+				<section>
+					<h2> Et kart </h2>
+				</section>
+
+
+			<section>
+				<iframe src="map.html" width="800px" height="600px">
+</iframe>
+</section>
+				<section>
+					<h2>Perfekt for geomatikkstudenter</h2>
+				</section>
+
+				<section>
+					<h2>Opplevelser fra hack4no 2015</h2>
+
+					<p>Muligheter innen Geomatikk</p>
+					<p>Tenk utenfor boksen</p>
+					<p>Sosialt møte for kartentusiaster</p>
+					<p>Bra atmosfære</p>
+					<p>Konkuransen</p>
+					<p>Gratis mat og drikke</p>
+				</section>
+
+				<section>
+					<section>
+						<h1>Men?...</h1>
+					</section>
+				<section>
+					<p>"Jeg har ikke en ide!"</p>
+				</section>
+				<section>
+					<p>"Jeg kan ikke programmering!"</p>
+				</section>
+				<section>
+					<section>
+						<section id="fragments">
+							<p>Det går bra! En gruppe trenger ALLE typer folk med ALLE type egenskaper</p>
+							<p class="fragment">Jo flere kokker, desto mer søl</p>
+							<p class="fragment">..og hvis du finner ut at du har lyst å lære deg programmering, er dette en flott arena for inspirasjon</p>
+						</section>
+					</section>
+				</section>
+				</section>
+
+				<section>
+					<h4> Sooo last year!</h4>
+					<img src="rostad.PNG" alt="Rostad">
+				</section>
+
+				<section>
+					<h3>Hvem er disse folka</h3>
+					<p>Twitter</p>
+					<p>#geomatikk #åpnedata #foss4g #hack4no</p>
+					<p>Kartverket Labs</p>
+					<p>Github</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
