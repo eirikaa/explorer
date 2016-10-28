@@ -80,7 +80,18 @@ map.on("mousemove", function(mouseEvent){
 });
 
 function onSuccess2(latlng){
-  
+  var point = {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+        "type": "Point",
+        "coordinates": [latlng.lng, latlng.lat]
+    }
+  }
+    var bufferStyle = {"color": "#ff0000"};
+    var buffer = turf.buffer(point,50000,'meters');
+    L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
+    // polygon2 = differenciate(buffer, polygon2);
 }
 
 // var pos2= pos.toGeoJSON();
