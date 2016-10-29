@@ -9,7 +9,7 @@ var rema = L.geoJson.ajax("data/rema 1000.geojson");
 var parks = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
   style: function () {
-    return { color: "#70ca49", weight: 2 };
+    return { color: "#EC1111", weight: 2 };
   }
 }).addTo(map);
 
@@ -88,7 +88,37 @@ function differenciate(buffer, difflayer){
   // difflayer.addData(differenced);
   return turf.difference(difflayer, buffer);
 }
+//
+// var test = $.getJSON('data/norge_rundt_geopos.json', function (response) {
+//   response.on('data',
+// })
+// .fail(function() {
+//     console.log("Error");
+// });
+//
+// function success(resp){
+//   console.log(resp);
+// }
 
+var jqxhr = $.getJSON( "data/norge_rundt_geopos.json", function() {
+  console.log( "success" );
+})
+  .done(function() {
+    console.log( "second success" );
+  })
+  .fail(function() {
+    console.log( "error" );
+  })
+  .always(function() {
+    console.log( "complete" );
+  });
+
+// Perform other work here ...
+
+// Set another completion function for the request above
+jqxhr.complete(function() {
+  console.log( "second complete" );
+});
 
 
 map.on("mousemove", function(mouseEvent){
@@ -126,7 +156,6 @@ function onSuccess2(latlng){
     console.log(exploredArea);
     console.log((exploredArea/norwayArea)*100);
     // console.log(area);
-
 }
 
 
@@ -141,7 +170,37 @@ var pos = L.control.coordinates({
 }).addTo(map);
 
 
-var bufferStyle = {"color": "#ff0000"};
+
+
+// $.ajax({
+//     type : 'GET',
+//     dataType : 'json',
+//     url: "data/norge_rundt_geopos.json",
+//     error: function(data){console.log('error');},
+//     sucess: function(data){console.log('jippii');},
+//     async: false,
+//   });
+//
+//  function success(){
+//    alert('success');
+//  }
+//  function error(){
+//    alert('error');
+//  }
+
+
+
+//"data/rema 1000.geojson"
+// $.ajax({
+//   url: 'mydata.json',
+//   type: 'get',
+//   dataType: 'json',
+//   error: function(data){
+//   },
+//   success: function(data){
+//     //do something with data
+//       }
+//   });
 
 // var pos2= pos.toGeoJSON();
 // L.extend(json.properties, point.properties);
