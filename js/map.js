@@ -1,4 +1,4 @@
-var map = L.map('map').setView([59.66, 10.77], 5);
+var map = L.map('map').setView([60.1704, 10.2485], 12);
 // L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.graatone?', {
     layers: 'topo2_graatone_WMS'
@@ -155,7 +155,7 @@ function onSuccess2(latlng){
 
 
     var bufferStyle = {"color": "#ff0000"};
-    var buffer = turf.buffer(point,5000000);
+    var buffer = turf.buffer(point,100000);
     // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
     var projmask = reproject(
         mask.toGeoJSON(),
@@ -168,7 +168,7 @@ function onSuccess2(latlng){
     overlay.addLayer(mask);
     console.log(turf.area(temp_difflayer));
     console.log(boxArea);
-    var exploredArea = (boxArea - turf.area(temp_difflayer))
+    var exploredArea = (boxArea - turf.area(temp_difflayer));
     console.log(exploredArea);
     console.log((exploredArea/norwayArea)*100);
     // console.log(area);
