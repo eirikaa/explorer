@@ -6,12 +6,18 @@ var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.gr
 
 var remaIcon = L.icon({
   iconUrl: 'icon/rema1000.png',
-  iconSize:     [15, 15]
+  iconSize:     [20, 20]
 });
 
-var rema = L.geoJson.ajax("data/rema 1000.geojson", {icon: remaIcon})
-// rema.addTo(map);
-L.marker([10, 60], {icon: remaIcon}).addTo(map);
+var rema = L.geoJson.ajax("data/rema 1000.geojson",
+    {middleware:function(data) {
+      return L.geoJson(data, {
+        onEachFeature: function (feature, layer) {
+          layer.setIcon(remaIcon);
+        }
+      }).addTo(map);
+    }});
+
 var parks = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
   style: function () {
@@ -91,7 +97,7 @@ function differenciate(buffer, difflayer){
 
 
 
-$.getJSON("data/norge_rundt_geopos.json", function(result){
+var test = $.getJSON("data/norge_rundt_geopos.json", function(result){
     $.each(result, function(i, field){
       console.log(field);
     });
