@@ -11,12 +11,16 @@ var remaIcon = L.icon({
 
 var rema = L.geoJson.ajax("data/rema 1000.geojson",
     {middleware:function(data) {
-      return L.geoJson(data, {
+      var test = L.geoJson(data, {
         onEachFeature: function (feature, layer) {
           layer.setIcon(remaIcon);
         }
-      }).addTo(map);
+      });
     }});
+
+      var markers = L.markerClusterGroup();
+        map.addLayer(rema);
+        // map.fitBounds(markers.getBounds());
 
 var parks = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
@@ -96,13 +100,21 @@ function differenciate(buffer, difflayer){
 }
 
 
-
-var test = $.getJSON("data/norge_rundt_geopos.json", function(result){
-    $.each(result, function(i, field){
-      console.log(field);
-    });
-});
-
+//
+// var test =$.getJSON("data/norge_rundt_geopos.json", function(result){
+//     $.each(result, function(i, field){
+//       var nrk = ([field.Lat, field.Lng]);
+//       // var markers = L.markerClusterGroup();
+//       // markers.addLayer(L.marker(nrk));
+//       // markers.addTo(map);
+//       var WFSlayer = L.geoJson(nrk,
+//           {
+//             var markers = L.markerClusterGroup();
+//             markers.addLayer(WFSlayer);
+//         // map.addLayer(markers);
+//       // L.marker([field.])
+//     });
+// });
 
 // var jqxhr = $.getJSON( "data/norge_rundt_geopos.json", function() {
 //   console.log( "success" );
