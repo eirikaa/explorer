@@ -9,7 +9,8 @@ var remaIcon = L.icon({
   iconSize:     [15, 15]
 });
 
-var rema = L.geoJson.ajax("data/rema 1000.geojson", {icon: remaIcon}).addTo(map);
+var rema = L.geoJson.ajax("data/rema 1000.geojson", {icon: remaIcon})
+// rema.addTo(map);
 L.marker([10, 60], {icon: remaIcon}).addTo(map);
 var parks = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
@@ -84,46 +85,38 @@ var mask = L.geoJSON(polygon2, {style: myStyle}).getLayers()[0];
 overlay.addLayer(mask);
 
 
-// L.geoJSON(polygon2).addTo(map);
-// var difflayer = L.geoJSON(polygon2, {style:myStyle}).addTo(map);
-//var difflayer = polygon2;
 function differenciate(buffer, difflayer){
-  // var geojson = difflayer.toGeoJSON();
-    // difflayer.clearLayers();
-  // difflayer.addData(differenced);
   return turf.difference(difflayer, buffer);
 }
-//
-// var test = $.getJSON('data/norge_rundt_geopos.json', function (response) {
-//   response.on('data',
-// })
-// .fail(function() {
-//     console.log("Error");
-// });
-//
-// function success(resp){
-//   console.log(resp);
-// }
 
-var jqxhr = $.getJSON( "data/norge_rundt_geopos.json", function() {
-  console.log( "success" );
-})
-  .done(function() {
-    console.log( "second success" );
-  })
-  .fail(function() {
-    console.log( "error" );
-  })
-  .always(function() {
-    console.log( "complete" );
-  });
+
+
+var test = $.getJSON("data/norge_rundt_geopos.json", function(result){
+    $.each(result, function(i, field){
+        
+    });
+});
+
+
+// var jqxhr = $.getJSON( "data/norge_rundt_geopos.json", function() {
+//   console.log( "success" );
+// })
+//   .done(function() {
+//     console.log( "second success" );
+//   })
+//   .fail(function() {
+//     console.log( "error" );
+//   })
+//   .always(function() {
+//     console.log( "complete" );
+//   });
 
 // Perform other work here ...
 
 // Set another completion function for the request above
-jqxhr.complete(function() {
-  console.log( "second complete" );
-});
+// jqxhr.complete(function() {
+//   console.log( "second complete" );
+// });
 
 
 map.on("mousemove", function(mouseEvent){
