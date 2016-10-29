@@ -91,9 +91,9 @@ function differenciate(buffer, difflayer){
 
 
 
-var test = $.getJSON("data/norge_rundt_geopos.json", function(result){
+$.getJSON("data/norge_rundt_geopos.json", function(result){
     $.each(result, function(i, field){
-        
+      console.log(field);
     });
 });
 
