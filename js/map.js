@@ -2,7 +2,17 @@ var map = L.map('map').setView([60.1704, 10.2485], 12);
 // L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.graatone?', {
     layers: 'topo2_graatone_WMS'
-    }).addTo(map);
+    })
+
+
+
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZWlyaWthYSIsImEiOiJkUkRLZFNvIn0.Jp-rRnXtj7LMYtiMauL0lA', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'eirikaa.1ppjk3k8',
+    accessToken: 'pk.eyJ1IjoiZWlyaWthYSIsImEiOiJjaXV3eTVxMTgwMDE5MzN0OXJpcXdkdW0wIn0.4bKwcNP6q5WOV62P7ldSfw'
+}).addTo(map);
+
 
 var remaIcon = L.icon({
   iconUrl: 'icon/rema1000.png',
