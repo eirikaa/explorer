@@ -28,8 +28,8 @@ var rema = L.geoJson.ajax("data/rema 1000.geojson",
       });
     }});
 
-      var markers = L.markerClusterGroup();
-        map.addLayer(rema);
+      // var markers = L.markerClusterGroup();
+      //   map.addLayer(rema);
         // map.fitBounds(markers.getBounds());
 
 var parks = L.esri.featureLayer({
