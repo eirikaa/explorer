@@ -8,7 +8,7 @@ The app is a product of [Hack4no](www.hack4.no). A hackathon arranged by [The No
 
 The app is built with the [Leaflet](www.leafletjs.com) library.
 
-###¤ Made by
+#### Made by
 [Eirik Aabøe](https://github.com/eirikaa/)
 [Bjørn Lie Rapp](https://github.com/noenandre)
 [Joakim Tveit Husefest](https://github.com/JHusefest)
