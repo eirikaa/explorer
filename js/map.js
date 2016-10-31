@@ -1,5 +1,5 @@
 var map = L.map('map').setView([60.1704, 10.2485], 12);
-// L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
 var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.graatone?', {
     layers: 'topo2_graatone_WMS'
     })
@@ -28,9 +28,7 @@ var rema = L.geoJson.ajax("data/rema 1000.geojson",
       });
     }});
 
-      // var markers = L.markerClusterGroup();
-      //   map.addLayer(rema);
-        // map.fitBounds(markers.getBounds());
+// TODO: cluster point datasets, leaflet marker cluster
 
 var parks = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
@@ -55,7 +53,6 @@ navigator.geolocation.getCurrentPosition(onSuccess,
   function onSuccess(pos){
   var lat = pos.coords.latitude;
   var lon = pos.coords.longitude;
-  console.log(lat, lon);
 
   var point = {
     "type": "Feature",
@@ -65,13 +62,24 @@ navigator.geolocation.getCurrentPosition(onSuccess,
         "coordinates": [lon, lat]
     }
 };
-    var buffer = turf.buffer(point,50000,'meters');
-    var geojsonbuffer= L.geoJson(buffer, {style:bufferStyle});
-    // var layers = L.layerGroup([Kartverket, Norge, geojsonbuffer]);
-    // layers.addTo(map)
-    var differenced = turf.difference(polygon2, buffer);
-    L.geoJSON(differenced, {style:myStyle}).addTo(map);
-    // polygon2 = differenciate(buffer, polygon2);
+    var bufferStyle = {"color": "#ff0000"};
+    var buffer = turf.buffer(point,100000);
+    // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
+    var projmask = reproject(
+        mask.toGeoJSON(),
+        "WGS84", "EPSG:3857");
+    var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
+    console.log(temp_difflayer);
+    overlay.removeLayer(mask);
+
+    mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
+    overlay.addLayer(mask);
+    console.log(turf.area(temp_difflayer));
+    console.log(boxArea);
+    var exploredArea = (boxArea - turf.area(temp_difflayer));
+    console.log(exploredArea);
+    console.log((exploredArea/norwayArea)*100);
+    // console.log(area);
 
 }
 function onError(){
@@ -100,8 +108,6 @@ const boxArea = turf.area(polygon2);
 const norwayArea = 325928052000;
 
 var mask = L.geoJSON(polygon2, {style: myStyle}).getLayers()[0];
-
-
 overlay.addLayer(mask);
 
 
@@ -164,9 +170,7 @@ function onSuccess2(latlng){
     "WGS84", "EPSG:3857");
 
 
-    var bufferStyle = {"color": "#ff0000"};
     var buffer = turf.buffer(point,100000);
-    // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
     var projmask = reproject(
         mask.toGeoJSON(),
         "WGS84", "EPSG:3857");
@@ -227,8 +231,5 @@ var pos = L.control.coordinates({
 //     //do something with data
 //       }
 //   });
-
-// var pos2= pos.toGeoJSON();
-// L.extend(json.properties, point.properties);
 
 // TODO: Add leaflet mini map
