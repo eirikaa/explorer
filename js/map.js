@@ -1,9 +1,11 @@
 var map = L.map('map').setView([60.1704, 10.2485], 12);
 
+// Norgeskart
 var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.graatone?', {
     layers: 'topo2_graatone_WMS'
     });
 
+// Mapbox pirate map
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZWlyaWthYSIsImEiOiJkUkRLZFNvIn0.Jp-rRnXtj7LMYtiMauL0lA', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
@@ -17,6 +19,7 @@ var remaIcon = L.icon({
   iconSize:     [20, 20]
 });
 
+// Rema datasett, remove?
 var rema = L.geoJson.ajax("data/rema 1000.geojson",
     {middleware:function(data) {
       var test = L.geoJson(data, {
@@ -28,7 +31,9 @@ var rema = L.geoJson.ajax("data/rema 1000.geojson",
 
 // TODO: cluster point datasets, leaflet marker cluster
 
-var parks = L.esri.featureLayer({
+// Esri plugin for accessing ArcGIS REAT API
+// Kultrurminner
+var kulturminner = L.esri.featureLayer({
   url: "http://husmann.ra.no/arcgis/rest/services/Kulturminnesok/Kulturminner/MapServer/1",
   style: function () {
     return { color: "#EC1111", weight: 2 };
@@ -37,15 +42,13 @@ var parks = L.esri.featureLayer({
 
 var popupTemplate = "<h3>{Navn}";
 
-parks.bindPopup(function(e) {
+kulturminner.bindPopup(function(e) {
   return L.Util.template(popupTemplate, e.feature.properties)
 });
 
 
 var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
 var overlay = L.featureGroup().addTo(map);
-
-
 
 var startPolygon = {
 
