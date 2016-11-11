@@ -167,8 +167,6 @@ var pos = L.control.coordinates({
  */
 
 
-
-//
 // var test =$.getJSON("data/norge_rundt_geopos.json", function(result){
 //     $.each(result, function(i, field){
 //       var nrk = ([field.Lat, field.Lng]);
@@ -184,57 +182,7 @@ var pos = L.control.coordinates({
 //     });
 // });
 
-// var jqxhr = $.getJSON( "data/norge_rundt_geopos.json", function() {
-//   console.log( "success" );
-// })
-//   .done(function() {
-//     console.log( "second success" );
-//   })
-//   .fail(function() {
-//     console.log( "error" );
-//   })
-//   .always(function() {
-//     console.log( "complete" );
-//   });
 
-// Perform other work here ...
-
-// Set another completion function for the request above
-// jqxhr.complete(function() {
-//   console.log( "second complete" );
-// });
-
-
-
-// $.ajax({
-//     type : 'GET',
-//     dataType : 'json',
-//     url: "data/norge_rundt_geopos.json",
-//     error: function(data){console.log('error');},
-//     sucess: function(data){console.log('jippii');},
-//     async: false,
-//   });
-//
-//  function success(){
-//    alert('success');
-//  }
-//  function error(){
-//    alert('error');
-//  }
-
-
-
-//"data/rema 1000.geojson"
-// $.ajax({
-//   url: 'mydata.json',
-//   type: 'get',
-//   dataType: 'json',
-//   error: function(data){
-//   },
-//   success: function(data){
-//     //do something with data
-//       }
-//   });
 
 
 // TODO: Add leaflet mini map
