@@ -2,9 +2,7 @@ var map = L.map('map').setView([60.1704, 10.2485], 12);
 
 var Kartverket = L.tileLayer.wms('http://openwms.statkart.no/skwms1/wms.topo2.graatone?', {
     layers: 'topo2_graatone_WMS'
-    })
-
-
+    });
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiZWlyaWthYSIsImEiOiJkUkRLZFNvIn0.Jp-rRnXtj7LMYtiMauL0lA', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -43,52 +41,13 @@ parks.bindPopup(function(e) {
   return L.Util.template(popupTemplate, e.feature.properties)
 });
 
-var overlay = L.featureGroup().addTo(map);
-/*
-navigator.geolocation.getCurrentPosition(onSuccess,
-                                         onError,
-                                         {maximumAge: 10000, timeout: 5000, enableHighAccuracy: true,
-                                         interval: 6000});
 
-  function onSuccess(pos){
-  var lat = pos.coords.latitude;
-  var lon = pos.coords.longitude;
-
-  var point = {
-    "type": "Feature",
-    "properties": {},
-    "geometry": {
-        "type": "Point",
-        "coordinates": [lon, lat]
-    }
-};
-    var bufferStyle = {"color": "#ff0000"};
-    var buffer = turf.buffer(point,100000);
-    // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
-    var projmask = reproject(
-        mask.toGeoJSON(),
-        "WGS84", "EPSG:3857");
-    var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
-    console.log(temp_difflayer);
-    overlay.removeLayer(mask);
-
-    mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
-    overlay.addLayer(mask);
-    console.log(turf.area(temp_difflayer));
-    console.log(boxArea);
-    var exploredArea = (boxArea - turf.area(temp_difflayer));
-    console.log(exploredArea);
-    console.log((exploredArea/norwayArea)*100);
-    // console.log(area);
-
-}
-function onError(){
-  alert('Noe gikk feil');
-}
-*/
 var myStyle = {"color": "#000000", "weigth": 0, "opacity": 1, "fillOpacity": 1};
+var overlay = L.featureGroup().addTo(map);
 
-var polygon2 = {
+
+
+var startPolygon = {
 
   "type": "Feature",
   "properties": {},
@@ -104,16 +63,109 @@ var polygon2 = {
   }
 };
 
-const boxArea = turf.area(polygon2);
+const boxArea = turf.area(startPolygon);
 const norwayArea = 325928052000;
 
-var mask = L.geoJSON(polygon2, {style: myStyle}).getLayers()[0];
+var mask = L.geoJSON(startPolygon, {style: myStyle}).getLayers()[0];
 overlay.addLayer(mask);
 
 
 function differenciate(buffer, difflayer){
   return turf.difference(difflayer, buffer);
 }
+
+map.on("mousemove", function(mouseEvent){
+  onSuccess2(mouseEvent.latlng);
+});
+
+function onSuccess2(latlng){
+  var point = reproject(
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "Point",
+          "coordinates": [latlng.lng, latlng.lat]
+        }
+      },
+      "WGS84", "EPSG:3857");
+
+
+  var buffer = turf.buffer(point,100000);
+  // FIXME: Somethin is weird with this distance
+  // buff =  reproject(buffer, "WGS84", "EPSG:3857");
+
+  var projmask = reproject(
+      mask.toGeoJSON(),
+      "WGS84", "EPSG:3857");
+
+  var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
+  overlay.removeLayer(mask);
+
+  mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
+  overlay.addLayer(mask);
+
+
+
+  var exploredArea = (boxArea - turf.area(temp_difflayer));
+  console.log((exploredArea/norwayArea)*100);
+}
+
+
+
+var pos = L.control.coordinates({
+  position:"bottomleft",
+  decimals:4,
+  decimalSeperator:",",
+  labelTemplateLat:"Latitude: {y}",
+  labelTemplateLng:"Longitude {x}",
+  useLatLngOrder: true
+}).addTo(map);
+
+
+/*
+ navigator.geolocation.getCurrentPosition(onSuccess,
+ onError,
+ {maximumAge: 10000, timeout: 5000, enableHighAccuracy: true,
+ interval: 6000});
+
+ function onSuccess(pos){
+ var lat = pos.coords.latitude;
+ var lon = pos.coords.longitude;
+
+ var point = {
+ "type": "Feature",
+ "properties": {},
+ "geometry": {
+ "type": "Point",
+ "coordinates": [lon, lat]
+ }
+ };
+ var bufferStyle = {"color": "#ff0000"};
+ var buffer = turf.buffer(point,100000);
+ // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
+ var projmask = reproject(
+ mask.toGeoJSON(),
+ "WGS84", "EPSG:3857");
+ var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
+ console.log(temp_difflayer);
+ overlay.removeLayer(mask);
+
+ mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
+ overlay.addLayer(mask);
+ console.log(turf.area(temp_difflayer));
+ console.log(boxArea);
+ var exploredArea = (boxArea - turf.area(temp_difflayer));
+ console.log(exploredArea);
+ console.log((exploredArea/norwayArea)*100);
+ // console.log(area);
+
+ }
+ function onError(){
+ alert('Noe gikk feil');
+ }
+ */
+
 
 
 //
@@ -153,54 +205,6 @@ function differenciate(buffer, difflayer){
 // });
 
 
-map.on("mousemove", function(mouseEvent){
-  onSuccess2(mouseEvent.latlng);
-});
-
-function onSuccess2(latlng){
-  var point = reproject(
-  {
-    "type": "Feature",
-    "properties": {},
-    "geometry": {
-        "type": "Point",
-        "coordinates": [latlng.lng, latlng.lat]
-    }
-  },
-    "WGS84", "EPSG:3857");
-
-
-    var buffer = turf.buffer(point,100000);
-    var projmask = reproject(
-        mask.toGeoJSON(),
-        "WGS84", "EPSG:3857");
-    var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
-    console.log(temp_difflayer);
-    overlay.removeLayer(mask);
-
-    mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
-    overlay.addLayer(mask);
-    console.log(turf.area(temp_difflayer));
-    console.log(boxArea);
-    var exploredArea = (boxArea - turf.area(temp_difflayer));
-    console.log(exploredArea);
-    console.log((exploredArea/norwayArea)*100);
-    // console.log(area);
-}
-
-
-
-var pos = L.control.coordinates({
-  position:"bottomleft",
-  decimals:4,
-  decimalSeperator:",",
-  labelTemplateLat:"Latitude: {y}",
-  labelTemplateLng:"Longitude {x}",
-  useLatLngOrder: true
-}).addTo(map);
-
-
-
 
 // $.ajax({
 //     type : 'GET',
@@ -232,4 +236,6 @@ var pos = L.control.coordinates({
 //       }
 //   });
 
+
 // TODO: Add leaflet mini map
+// TODO: The effeciency is bad when the geometry gets complicated
