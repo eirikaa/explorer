@@ -1,0 +1,28 @@
+{
+  "name": "explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@turf/turf": "^3.5.2",
+    "leaflet-ajax": "^2.0.0",
+    "leaflet-mouse-position": "^1.0.1",
+    "leaflet.coordinates": "^0.1.5",
+    "leaflet.markercluster": "^1.0.0",
+    "reproject": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eirikaa, Jhusefest, noenandre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eirikaa/explorer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eirikaa/explorer/issues"
+  },
+  "homepage": "https://github.com/eirikaa/explorer#readme"
+}
