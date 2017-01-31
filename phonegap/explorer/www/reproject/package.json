@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "reproject@^1.1.1",
+        "scope": null,
+        "escapedName": "reproject",
+        "name": "reproject",
+        "rawSpec": "^1.1.1",
+        "spec": ">=1.1.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/joakimtveithusefest/Desktop/EXPLORER/explorer"
+    ]
+  ],
+  "_from": "reproject@>=1.1.1 <2.0.0",
+  "_id": "reproject@1.1.1",
+  "_inCache": true,
+  "_location": "/reproject",
+  "_nodeVersion": "5.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-13-west.internal.npmjs.com",
+    "tmp": "tmp/reproject-1.1.1.tgz_1458851091263_0.7053219673689455"
+  },
+  "_npmUser": {
+    "name": "liedman",
+    "email": "per@liedman.net"
+  },
+  "_npmVersion": "3.5.2",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "reproject@^1.1.1",
+    "scope": null,
+    "escapedName": "reproject",
+    "name": "reproject",
+    "rawSpec": "^1.1.1",
+    "spec": ">=1.1.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/reproject/-/reproject-1.1.1.tgz",
+  "_shasum": "2a5838283c23c1d889933bbb599e144a9d3fb86a",
+  "_shrinkwrap": null,
+  "_spec": "reproject@^1.1.1",
+  "_where": "/Users/joakimtveithusefest/Desktop/EXPLORER/explorer",
+  "author": {
+    "name": "Per Liedman"
+  },
+  "bin": {
+    "reproject": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/perliedman/reproject/issues"
+  },
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "minimist": "^1.2.0",
+    "proj4": "^2.3.12"
+  },
+  "description": "Reproject GeoJSON from one projection/CRS to another",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.4.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "2a5838283c23c1d889933bbb599e144a9d3fb86a",
+    "tarball": "https://registry.npmjs.org/reproject/-/reproject-1.1.1.tgz"
+  },
+  "gitHead": "7fe01da643621a3796ce3afdd5e2e56c0917e7d9",
+  "homepage": "https://github.com/perliedman/reproject#readme",
+  "keywords": [
+    "geojson",
+    "projection",
+    "proj4",
+    "maps"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "liedman",
+      "email": "per.liedman@kartena.se"
+    }
+  ],
+  "name": "reproject",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/perliedman/reproject.git"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "version": "1.1.1"
+}

@@ -77,9 +77,26 @@ function differenciate(buffer, difflayer){
   return turf.difference(difflayer, buffer);
 }
 
-map.on("mousemove", function(mouseEvent){
-  onSuccess2(mouseEvent.latlng);
-});
+map.locate({setView: true, maxZoom: 14});
+
+function onLocationFound(e) {
+    var radius = e.accuracy / 2;
+
+    L.circle(e.latlng, radius).addTo(map);
+
+    onSuccess2(e.latlng);
+
+}
+
+map.on('locationfound', onLocationFound);
+
+function onLocationError(e) {
+    alert(e.message);
+}
+
+map.on('locationerror', onLocationError);
+
+
 
 function onSuccess2(latlng){
   var point = reproject(
@@ -107,8 +124,6 @@ function onSuccess2(latlng){
 
   mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
   overlay.addLayer(mask);
-
-
 
   var exploredArea = (boxArea - turf.area(temp_difflayer));
   console.log((exploredArea/norwayArea)*100);

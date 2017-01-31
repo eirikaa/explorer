@@ -1,0 +1,7463 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2016-10-28T14:52:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/36604250",
+      "properties": {
+        "@id": "node/36604250",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2869702,
+          60.5459358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/148322126",
+      "properties": {
+        "@id": "node/148322126",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 08:00-21:00;Su off",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4388827,
+          63.4099368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/193629076",
+      "properties": {
+        "@id": "node/193629076",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3309905,
+          63.3873208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/197492272",
+      "properties": {
+        "@id": "node/197492272",
+        "email": "drotningsvik@rema.no",
+        "level": "0",
+        "name": "Rema 1000",
+        "phone": "+47 55 50 64 40",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1801031,
+          60.3719713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/211168452",
+      "properties": {
+        "@id": "node/211168452",
+        "created_by": "JOSM",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5342414,
+          63.421039
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/226059674",
+      "properties": {
+        "@id": "node/226059674",
+        "addr:city": "Trondheim",
+        "addr:housenumber": "7",
+        "addr:postcode": "7045",
+        "addr:street": "Kong Øysteins veg",
+        "brand": "REMA 1000",
+        "name": "Rema 1000",
+        "phone": "+47 73 91 86 95",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Bromstad/445451",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4511547,
+          63.4309727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/243081589",
+      "properties": {
+        "@id": "node/243081589",
+        "name": "Rema 1000 Jørpeland",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0381658,
+          59.0171606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/246875581",
+      "properties": {
+        "@id": "node/246875581",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4436901,
+          63.446697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/247786110",
+      "properties": {
+        "@id": "node/247786110",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4622987,
+          60.1191441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/251710249",
+      "properties": {
+        "@id": "node/251710249",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1745549,
+          60.1425026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/252866824",
+      "properties": {
+        "@id": "node/252866824",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9606637,
+          63.58346
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/258171008",
+      "properties": {
+        "@id": "node/258171008",
+        "created_by": "JOSM",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1932325,
+          60.3700479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/259723046",
+      "properties": {
+        "@id": "node/259723046",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2195436,
+          60.4062722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/265977905",
+      "properties": {
+        "@id": "node/265977905",
+        "addr:housename": "Rema 1000",
+        "addr:housenumber": "1986",
+        "addr:postcode": "4120",
+        "addr:street": "Ryfylkevegen",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9189206,
+          59.0651282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/274116078",
+      "properties": {
+        "@id": "node/274116078",
+        "addr:city": "Lillestrøm",
+        "addr:housenumber": "27",
+        "addr:postcode": "2000",
+        "addr:street": "Nittedalsgata",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-23:00;Sa 08:00-21:00",
+        "phone": "90365136",
+        "shop": "grocery",
+        "website": "http://www.rema.no/butikker/rema-1000-lillestrøm/1493487"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0467839,
+          59.9572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/278230958",
+      "properties": {
+        "@id": "node/278230958",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4906285,
+          64.0115784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/281805244",
+      "properties": {
+        "@id": "node/281805244",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1923591,
+          60.4282772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/282763146",
+      "properties": {
+        "@id": "node/282763146",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3398694,
+          60.3764162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/283597920",
+      "properties": {
+        "@id": "node/283597920",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2119428,
+          65.8339805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/286618732",
+      "properties": {
+        "@id": "node/286618732",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5605432,
+          68.2350747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/287159656",
+      "properties": {
+        "@id": "node/287159656",
+        "addr:city": "Bergen",
+        "addr:country": "NO",
+        "addr:housenumber": "1",
+        "addr:postcode": "5009",
+        "addr:street": "Haukelandsveien",
+        "franchise": "REMA 1000",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3587809,
+          60.3773067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/287469597",
+      "properties": {
+        "@id": "node/287469597",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3228527,
+          60.4382423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/287776652",
+      "properties": {
+        "@id": "node/287776652",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "unknown",
+        "wheelchair:description": "Butikken er nedlagt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3536186,
+          60.3188829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/289518556",
+      "properties": {
+        "@id": "node/289518556",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2467207,
+          60.3413283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/289525263",
+      "properties": {
+        "@id": "node/289525263",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2719106,
+          60.3458576
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/289529136",
+      "properties": {
+        "@id": "node/289529136",
+        "addr:city": "Bergen",
+        "addr:housenumber": "2",
+        "addr:postcode": "5067",
+        "addr:street": "Fageråsveien",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3518669,
+          60.3601672
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/290377809",
+      "properties": {
+        "@id": "node/290377809",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2413185,
+          60.5184028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/299612922",
+      "properties": {
+        "@id": "node/299612922",
+        "addr:city": "Bergen",
+        "addr:country": "NO",
+        "addr:housenumber": "126",
+        "addr:postcode": "5094",
+        "addr:street": "Nattlandsveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.36898,
+          60.3511063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/306935384",
+      "properties": {
+        "@id": "node/306935384",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2838115,
+          63.7333846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/323126223",
+      "properties": {
+        "@id": "node/323126223",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 08:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4085426,
+          59.6174544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/347483777",
+      "properties": {
+        "@id": "node/347483777",
+        "addr:housenumber": "2",
+        "addr:postcode": "0657",
+        "addr:street": "Jordalgata",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7791531,
+          59.9082345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/356303843",
+      "properties": {
+        "@id": "node/356303843",
+        "addr:city": "Rolvsøy",
+        "addr:country": "NO",
+        "addr:housenumber": "31-33",
+        "addr:postcode": "1661",
+        "addr:street": "Dikeveien",
+        "entrance": "main",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9964472,
+          59.2517745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/364548431",
+      "properties": {
+        "@id": "node/364548431",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.19107,
+          60.1434131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/365558109",
+      "properties": {
+        "@id": "node/365558109",
+        "addr:city": "Borgheim",
+        "addr:housenumber": "1",
+        "addr:postcode": "3140",
+        "addr:street": "Semsveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 08:00-21:00",
+        "shop": "convenience",
+        "website": "http://butikk.rema.no/REMA+1000+Borgheim/234093",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4080615,
+          59.2257307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/373669398",
+      "properties": {
+        "@id": "node/373669398",
+        "layer": "3",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7340813,
+          58.9666149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/390044183",
+      "properties": {
+        "@id": "node/390044183",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3458391,
+          60.4673797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/391254962",
+      "properties": {
+        "@id": "node/391254962",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.335561,
+          60.34751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/401273128",
+      "properties": {
+        "@id": "node/401273128",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.937005,
+          59.2061484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/409169166",
+      "properties": {
+        "@id": "node/409169166",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3390459,
+          59.7438311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/410626863",
+      "properties": {
+        "@id": "node/410626863",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8502821,
+          58.9290123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/416149435",
+      "properties": {
+        "@id": "node/416149435",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3573819,
+          68.8773654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/426846557",
+      "properties": {
+        "@id": "node/426846557",
+        "entrance": "main",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5875277,
+          58.9353288
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/428918895",
+      "properties": {
+        "@id": "node/428918895",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6462464,
+          59.1144724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/441005248",
+      "properties": {
+        "@id": "node/441005248",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0670621,
+          60.794422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/441009942",
+      "properties": {
+        "@id": "node/441009942",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0660066,
+          60.8303281
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/441010598",
+      "properties": {
+        "@id": "node/441010598",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0354153,
+          60.8017308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/441292595",
+      "properties": {
+        "@id": "node/441292595",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5933033,
+          58.3369449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/441346633",
+      "properties": {
+        "@id": "node/441346633",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7457919,
+          59.9256247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/443840679",
+      "properties": {
+        "@id": "node/443840679",
+        "addr:city": "Tromsø",
+        "addr:housenumber": "106",
+        "addr:postcode": "9006",
+        "addr:street": "Strandvegen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-23:00;Su off",
+        "phone": "+4777634800",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9345756,
+          69.6355242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/445595252",
+      "properties": {
+        "@id": "node/445595252",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9968783,
+          59.2278666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/446596980",
+      "properties": {
+        "@id": "node/446596980",
+        "level": "2",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6807764,
+          58.9527957
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/447222389",
+      "properties": {
+        "@id": "node/447222389",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4463771,
+          58.0292339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/448170643",
+      "properties": {
+        "@id": "node/448170643",
+        "layer": "2",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7568941,
+          59.8613632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/454303467",
+      "properties": {
+        "@id": "node/454303467",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8115456,
+          59.9424417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/454644189",
+      "properties": {
+        "@id": "node/454644189",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3452228,
+          63.3664057
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/471563873",
+      "properties": {
+        "@id": "node/471563873",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.376469,
+          67.2835676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/474797273",
+      "properties": {
+        "@id": "node/474797273",
+        "level": "0",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.122074,
+          60.3580625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/475858402",
+      "properties": {
+        "@id": "node/475858402",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1717564,
+          60.2865341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/482992246",
+      "properties": {
+        "@id": "node/482992246",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 07:00-21:00",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.875595,
+          59.3515823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/487233125",
+      "properties": {
+        "@id": "node/487233125",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6391733,
+          59.9343836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/488515691",
+      "properties": {
+        "@id": "node/488515691",
+        "addr:city": "Gjøvik",
+        "addr:housenumber": "5",
+        "addr:postcode": "2815",
+        "addr:street": "Ringvegen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-21:00",
+        "phone": "+47 61109169",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6924875,
+          60.7842405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/490252214",
+      "properties": {
+        "@id": "node/490252214",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5422703,
+          60.0701439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/492691664",
+      "properties": {
+        "@id": "node/492691664",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8615567,
+          58.7676762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/494458627",
+      "properties": {
+        "@id": "node/494458627",
+        "addr:city": "Gjøvik",
+        "addr:housenumber": "1A",
+        "addr:postcode": "2815",
+        "addr:street": "Merkantilvegen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-21:00",
+        "phone": "+47 61170100",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6894638,
+          60.7956817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/496104751",
+      "properties": {
+        "@id": "node/496104751",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5888323,
+          59.928459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/498433253",
+      "properties": {
+        "@id": "node/498433253",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4939348,
+          64.0099501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/506025411",
+      "properties": {
+        "@id": "node/506025411",
+        "name": "Rema 1000",
+        "opening_hours": "mo-fr 07:00-23:00, sa 08:00-20:00, su 09:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7420829,
+          58.9352888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/506351646",
+      "properties": {
+        "@id": "node/506351646",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "http://www.aunasenteret.no/index.php/rema-1000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.690918,
+          62.5934681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/514406989",
+      "properties": {
+        "@id": "node/514406989",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0090304,
+          59.7506665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/529635148",
+      "properties": {
+        "@id": "node/529635148",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Farsund/979739"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8048982,
+          58.0963538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/529924767",
+      "properties": {
+        "@id": "node/529924767",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6758021,
+          60.7763584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/530890482",
+      "properties": {
+        "@id": "node/530890482",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3924654,
+          63.4318366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/530915939",
+      "properties": {
+        "@id": "node/530915939",
+        "addr:housenumber": "15",
+        "addr:street": "Olav Tryggvasonsgate",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3999788,
+          63.43321
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/530942545",
+      "properties": {
+        "@id": "node/530942545",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3943503,
+          63.4299416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/534912792",
+      "properties": {
+        "@id": "node/534912792",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4648584,
+          60.1926263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/538473958",
+      "properties": {
+        "@id": "node/538473958",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7142082,
+          58.8565228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/544573439",
+      "properties": {
+        "@id": "node/544573439",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2909191,
+          60.9704637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/560517963",
+      "properties": {
+        "@id": "node/560517963",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2689605,
+          60.4865426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/562818633",
+      "properties": {
+        "@id": "node/562818633",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6300632,
+          58.7733969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/566636817",
+      "properties": {
+        "@id": "node/566636817",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4083181,
+          63.3875766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/567066798",
+      "properties": {
+        "@id": "node/567066798",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0735626,
+          58.137069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/576768780",
+      "properties": {
+        "@id": "node/576768780",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9716387,
+          59.2063831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/585171822",
+      "properties": {
+        "@id": "node/585171822",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4539843,
+          59.7618305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/603353837",
+      "properties": {
+        "@id": "node/603353837",
+        "addr:city": "Sandnes",
+        "addr:housenumber": "4",
+        "addr:postcode": "4325",
+        "addr:street": "Håbafjellveien",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7560435,
+          58.8258054
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/606174637",
+      "properties": {
+        "@id": "node/606174637",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3034318,
+          60.4245335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/615323891",
+      "properties": {
+        "@id": "node/615323891",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8724587,
+          61.4493208
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/619245341",
+      "properties": {
+        "@id": "node/619245341",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1978145,
+          60.7209361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/628626611",
+      "properties": {
+        "@id": "node/628626611",
+        "addr:housenumber": "56",
+        "addr:street": "Nedre Bakklandet",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 09:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4067741,
+          63.4313558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/638975288",
+      "properties": {
+        "@id": "node/638975288",
+        "addr:city": "Oslo",
+        "addr:housenumber": "98",
+        "addr:postcode": "0977",
+        "addr:street": "Garver Ytteborgs vei",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Haugenstua/1013133"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9085327,
+          59.9532889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/641770043",
+      "properties": {
+        "@id": "node/641770043",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6081453,
+          59.9368066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/648894420",
+      "properties": {
+        "@id": "node/648894420",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.942911,
+          63.4691563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/653967042",
+      "properties": {
+        "@id": "node/653967042",
+        "man_made": "surveillance",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "surveillance": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2937798,
+          60.3564123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/656561774",
+      "properties": {
+        "@id": "node/656561774",
+        "name": "Rema 1000",
+        "opening_hours": "09:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2886791,
+          60.350471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/659682162",
+      "properties": {
+        "@id": "node/659682162",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1466401,
+          59.7528116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/663574274",
+      "properties": {
+        "@id": "node/663574274",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "1",
+        "addr:postcode": "0988",
+        "addr:street": "Nedre Rommen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9082992,
+          59.9633087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/674525278",
+      "properties": {
+        "@id": "node/674525278",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 09:00-20:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8558343,
+          58.1384546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/674525536",
+      "properties": {
+        "@id": "node/674525536",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-20:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9223674,
+          58.2156158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/678845955",
+      "properties": {
+        "@id": "node/678845955",
+        "addr:city": "Nøtterøy",
+        "addr:housenumber": "11",
+        "addr:postcode": "3120",
+        "addr:street": "Smidsrødveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-24:00",
+        "shop": "convenience",
+        "website": "http://butikk.rema.no/REMA+1000+Teie/1065103"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4187398,
+          59.2516926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/680240583",
+      "properties": {
+        "@id": "node/680240583",
+        "addr:city": "Tønsberg",
+        "addr:housenumber": "57",
+        "addr:postcode": "3117",
+        "addr:street": "Slagenveien",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4286312,
+          59.2746341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/709087300",
+      "properties": {
+        "@id": "node/709087300",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "31",
+        "addr:postcode": "0190",
+        "addr:street": "Platous gate",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "website": "rema.no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7643958,
+          59.9102976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/715010960",
+      "properties": {
+        "@id": "node/715010960",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "160",
+        "addr:postcode": "0491",
+        "addr:street": "Kjelsåsveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-21:00",
+        "phone": "22952185",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/butikker/rema-1000-kjelsås/343417"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7762331,
+          59.9656591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/738926354",
+      "properties": {
+        "@id": "node/738926354",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7848688,
+          59.9426492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/740029665",
+      "properties": {
+        "@id": "node/740029665",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6633399,
+          59.4801613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/767154301",
+      "properties": {
+        "@id": "node/767154301",
+        "addr:street": "nesset",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+        "phone": "75040130",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6417017,
+          66.0231982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/797354637",
+      "properties": {
+        "@id": "node/797354637",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1628227,
+          59.269383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/801256996",
+      "properties": {
+        "@id": "node/801256996",
+        "man_made": "surveillance",
+        "name": "Rema 1000 Nordkjosbotn",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "convenience",
+        "surveillance": "indoor",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.5548903,
+          69.2160361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/805981581",
+      "properties": {
+        "@id": "node/805981581",
+        "man_made": "surveillance",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 09:00-21:00; Su off",
+        "shop": "supermarket",
+        "surveillance": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0079596,
+          69.7682449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/812456233",
+      "properties": {
+        "@id": "node/812456233",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0128391,
+          58.4614728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/819301852",
+      "properties": {
+        "@id": "node/819301852",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9399715,
+          59.664218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/819779915",
+      "properties": {
+        "@id": "node/819779915",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.552929,
+          60.8821873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/822174688",
+      "properties": {
+        "@id": "node/822174688",
+        "addr:housenumber": "4",
+        "addr:street": "Gravdalsveien",
+        "amenity": "post_office",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2713652,
+          60.3854342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/835770302",
+      "properties": {
+        "@id": "node/835770302",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1979474,
+          62.7409467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/840277832",
+      "properties": {
+        "@id": "node/840277832",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9611995,
+          60.7020158
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/845163636",
+      "properties": {
+        "@id": "node/845163636",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1799071,
+          59.1412558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/850811996",
+      "properties": {
+        "@id": "node/850811996",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4754932,
+          58.0271371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/850815604",
+      "properties": {
+        "@id": "node/850815604",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4594972,
+          58.028386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/855599296",
+      "properties": {
+        "@id": "node/855599296",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9598114,
+          58.1071064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/857601976",
+      "properties": {
+        "@id": "node/857601976",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3736907,
+          58.8717007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/863690028",
+      "properties": {
+        "@id": "node/863690028",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "26A",
+        "addr:postcode": "0858",
+        "addr:street": "Rolf E. Stenersens allé",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7291885,
+          59.9531777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/866258279",
+      "properties": {
+        "@id": "node/866258279",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7976555,
+          59.9138501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/867551167",
+      "properties": {
+        "@id": "node/867551167",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7396873,
+          58.8530603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/868459581",
+      "properties": {
+        "@id": "node/868459581",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7879245,
+          59.9148236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/869565653",
+      "properties": {
+        "@id": "node/869565653",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1393833,
+          62.7338661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/892236008",
+      "properties": {
+        "@id": "node/892236008",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5744786,
+          61.8405284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/892322150",
+      "properties": {
+        "@id": "node/892322150",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2677311,
+          63.2861246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/892322160",
+      "properties": {
+        "@id": "node/892322160",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2803014,
+          63.2853712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/893514235",
+      "properties": {
+        "@id": "node/893514235",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:000-23:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4187664,
+          68.6910788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/939738143",
+      "properties": {
+        "@id": "node/939738143",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.9764952,
+          60.2020339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/944167610",
+      "properties": {
+        "@id": "node/944167610",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2241621,
+          63.9602202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/958644887",
+      "properties": {
+        "@id": "node/958644887",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8406884,
+          59.7184543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/973843478",
+      "properties": {
+        "@id": "node/973843478",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "1A",
+        "addr:postcode": "0369",
+        "addr:street": "Sørkedalsveien",
+        "fax": "+47 22607830",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "phone": "+47 22608960",
+        "shop": "supermarket",
+        "website": "http://www.rema1000.no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7136054,
+          59.9299044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/974731220",
+      "properties": {
+        "@id": "node/974731220",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6559339,
+          59.9558264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/975509867",
+      "properties": {
+        "@id": "node/975509867",
+        "addr:city": "Tromsø",
+        "addr:housenumber": "27",
+        "addr:postcode": "9010",
+        "addr:street": "Stakkevollvegen",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9688579,
+          69.6639813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/999701269",
+      "properties": {
+        "@id": "node/999701269",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2619744,
+          60.2918122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1005651461",
+      "properties": {
+        "@id": "node/1005651461",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.944907,
+          59.2181462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1064725176",
+      "properties": {
+        "@id": "node/1064725176",
+        "fixme": "position",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3374234,
+          60.8215245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1065880312",
+      "properties": {
+        "@id": "node/1065880312",
+        "brand": "Rema 1000",
+        "delivery": "no",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "website": "www.rema1000.no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.703642,
+          58.895386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1071682574",
+      "properties": {
+        "@id": "node/1071682574",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.963752,
+          58.2505747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1106394156",
+      "properties": {
+        "@id": "node/1106394156",
+        "addr:city": "Rolvsøy",
+        "addr:country": "NO",
+        "addr:housenumber": "402",
+        "addr:postcode": "1666",
+        "addr:street": "Rolvsøyveien",
+        "entrance": "main",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0130644,
+          59.2664831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1119548642",
+      "properties": {
+        "@id": "node/1119548642",
+        "addr:housenumber": "27",
+        "addr:street": "John G. Mattesons vei",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8532946,
+          59.8921885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1185252613",
+      "properties": {
+        "@id": "node/1185252613",
+        "name": "Rema 1000",
+        "shop": "grocery",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7566223,
+          59.9279536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1200404358",
+      "properties": {
+        "@id": "node/1200404358",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.416296,
+          63.436493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1206294394",
+      "properties": {
+        "@id": "node/1206294394",
+        "franchise": "Rema 1000",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3190179,
+          60.3931936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1218869393",
+      "properties": {
+        "@id": "node/1218869393",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1920401,
+          59.7469098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1225147950",
+      "properties": {
+        "@id": "node/1225147950",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4895526,
+          59.7858839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1234252102",
+      "properties": {
+        "@id": "node/1234252102",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.067732,
+          59.4101771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1236115275",
+      "properties": {
+        "@id": "node/1236115275",
+        "name": "Rema 1000",
+        "phone": "+4757673127",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.100442,
+          61.22611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1237659093",
+      "properties": {
+        "@id": "node/1237659093",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3457476,
+          60.3096152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1249066180",
+      "properties": {
+        "@id": "node/1249066180",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4514577,
+          68.4450455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1270690166",
+      "properties": {
+        "@id": "node/1270690166",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2471849,
+          59.7493771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1270700469",
+      "properties": {
+        "@id": "node/1270700469",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2444098,
+          59.7869983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1274116364",
+      "properties": {
+        "@id": "node/1274116364",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4140725,
+          68.4074102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1288334853",
+      "properties": {
+        "@id": "node/1288334853",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8907623,
+          61.4585273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1311005120",
+      "properties": {
+        "@id": "node/1311005120",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8676629,
+          59.9522656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1322490377",
+      "properties": {
+        "@id": "node/1322490377",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2293833,
+          60.3822863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1324765796",
+      "properties": {
+        "@id": "node/1324765796",
+        "addr:housename": "Helleberg",
+        "addr:housenumber": "170",
+        "addr:postcode": "2615",
+        "addr:street": "Storgata 179",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 08:00-21:00",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Helleberg/215039",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4565837,
+          61.1250242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1341690980",
+      "properties": {
+        "@id": "node/1341690980",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2709204,
+          69.9639955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1373921226",
+      "properties": {
+        "@id": "node/1373921226",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3541074,
+          63.3516628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1376615636",
+      "properties": {
+        "@id": "node/1376615636",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7028098,
+          59.9428483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1402309888",
+      "properties": {
+        "@id": "node/1402309888",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9404657,
+          60.8839996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1417294607",
+      "properties": {
+        "@id": "node/1417294607",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.785465,
+          63.1087409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1421446990",
+      "properties": {
+        "@id": "node/1421446990",
+        "name": "Rema 1000 Kautokeino",
+        "name:se": "Rema 1000 Gouvdageaidnu",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 07:00-22:00; Su off",
+        "phone": "+4778487840",
+        "shop": "supermarket",
+        "snowmobile": "yes",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.0422349,
+          69.0041631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1459379359",
+      "properties": {
+        "@id": "node/1459379359",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8133652,
+          58.0983681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1520882085",
+      "properties": {
+        "@id": "node/1520882085",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7964422,
+          59.6650329
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1579350192",
+      "properties": {
+        "@id": "node/1579350192",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2578302,
+          59.5580696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1581074559",
+      "properties": {
+        "@id": "node/1581074559",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5574667,
+          68.5508859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1599893153",
+      "properties": {
+        "@id": "node/1599893153",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0340061,
+          60.0710897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1600974348",
+      "properties": {
+        "@id": "node/1600974348",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3041681,
+          58.0838815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1607823816",
+      "properties": {
+        "@id": "node/1607823816",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2189586,
+          59.5665401
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1616627490",
+      "properties": {
+        "@id": "node/1616627490",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8032052,
+          59.8979187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1634438282",
+      "properties": {
+        "@id": "node/1634438282",
+        "addr:housenumber": "100",
+        "addr:street": "Holmliaveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-07:00, 23:00-23:00; Sa 08:00-23:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7966064,
+          59.8321452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1643391393",
+      "properties": {
+        "@id": "node/1643391393",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-23:00;Sa 08:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3721451,
+          69.972943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1652092748",
+      "properties": {
+        "@id": "node/1652092748",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0279676,
+          59.9860976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1655107199",
+      "properties": {
+        "@id": "node/1655107199",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2744615,
+          59.1279448
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1657477789",
+      "properties": {
+        "@id": "node/1657477789",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6206467,
+          68.1449029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1657481403",
+      "properties": {
+        "@id": "node/1657481403",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9104473,
+          68.5651707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1657483124",
+      "properties": {
+        "@id": "node/1657483124",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1002277,
+          69.3098651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1660695071",
+      "properties": {
+        "@id": "node/1660695071",
+        "addr:city": "Bodø",
+        "addr:country": "NO",
+        "addr:housenumber": "17",
+        "addr:street": "Notveien",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4604061,
+          67.2756602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1660695072",
+      "properties": {
+        "@id": "node/1660695072",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5460166,
+          67.281124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1660718988",
+      "properties": {
+        "@id": "node/1660718988",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4135455,
+          67.2823361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1660844139",
+      "properties": {
+        "@id": "node/1660844139",
+        "fixme": "fixme",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9227457,
+          69.6724247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1660848482",
+      "properties": {
+        "@id": "node/1660848482",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 07:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9569492,
+          69.6518784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1660851635",
+      "properties": {
+        "@id": "node/1660851635",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.994296,
+          69.228178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1669933465",
+      "properties": {
+        "@id": "node/1669933465",
+        "addr:country": "NO",
+        "addr:housenumber": "47",
+        "addr:street": "Trondheimsveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 06:00-00:00; Sa 07:00-23:00",
+        "phone": "+4722083230",
+        "shop": "supermarket",
+        "website": "http://rema1000.no/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7701188,
+          59.921538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1675826592",
+      "properties": {
+        "@id": "node/1675826592",
+        "name": "Rema 1000",
+        "opening_hours": "09:00-21:00",
+        "phone": "+47 77 60 26 70",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9709047,
+          69.639956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683127738",
+      "properties": {
+        "@id": "node/1683127738",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5153392,
+          68.8121769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683129064",
+      "properties": {
+        "@id": "node/1683129064",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1574039,
+          69.1452518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1683129623",
+      "properties": {
+        "@id": "node/1683129623",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8342931,
+          68.8752852
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1697472933",
+      "properties": {
+        "@id": "node/1697472933",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6718233,
+          70.6775229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1699920273",
+      "properties": {
+        "@id": "node/1699920273",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.81618,
+          58.4742779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1711477812",
+      "properties": {
+        "@id": "node/1711477812",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7273267,
+          63.1086875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1711896756",
+      "properties": {
+        "@id": "node/1711896756",
+        "brand": "Rema 1000",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.369771,
+          60.307827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1718011386",
+      "properties": {
+        "@id": "node/1718011386",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2625246,
+          61.3144778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1726378728",
+      "properties": {
+        "@id": "node/1726378728",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-23:00; Sa 09:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7565899,
+          58.9661529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1727574664",
+      "properties": {
+        "@id": "node/1727574664",
+        "addr:city": "Bergen",
+        "addr:country": "NO",
+        "addr:housenumber": "84",
+        "addr:postcode": "5094",
+        "addr:street": "Nattlandsveien",
+        "lottery": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3685886,
+          60.3578772
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1729148563",
+      "properties": {
+        "@id": "node/1729148563",
+        "brand": "REMA 1000",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.070131,
+          60.8374227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1740622324",
+      "properties": {
+        "@id": "node/1740622324",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0423599,
+          60.0000194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1749588163",
+      "properties": {
+        "@id": "node/1749588163",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7588231,
+          59.9272564
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1769606914",
+      "properties": {
+        "@id": "node/1769606914",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7387665,
+          59.9173116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1769606916",
+      "properties": {
+        "@id": "node/1769606916",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7386243,
+          59.9199641
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1775428053",
+      "properties": {
+        "@id": "node/1775428053",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7565329,
+          59.9137986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1775566348",
+      "properties": {
+        "@id": "node/1775566348",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.64276,
+          59.8353603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1792049371",
+      "properties": {
+        "@id": "node/1792049371",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1637637,
+          59.4717818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1805493566",
+      "properties": {
+        "@id": "node/1805493566",
+        "name": "Rema 1000 Rena",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3684257,
+          61.1315037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1816089101",
+      "properties": {
+        "@id": "node/1816089101",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7109264,
+          62.9693507
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1834319935",
+      "properties": {
+        "@id": "node/1834319935",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7329246,
+          61.5949361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1834390282",
+      "properties": {
+        "@id": "node/1834390282",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5048016,
+          64.4674651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1841211150",
+      "properties": {
+        "@id": "node/1841211150",
+        "addr:city": "Oslo",
+        "addr:housenumber": "210",
+        "addr:postcode": "0751",
+        "addr:street": "Vækerøveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6427355,
+          59.9472829
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1853564214",
+      "properties": {
+        "@id": "node/1853564214",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6552937,
+          58.7211396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1896814062",
+      "properties": {
+        "@id": "node/1896814062",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7294275,
+          58.9933353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1900715300",
+      "properties": {
+        "@id": "node/1900715300",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6382402,
+          58.7347528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1908063652",
+      "properties": {
+        "@id": "node/1908063652",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4810959,
+          59.9558091
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1913789216",
+      "properties": {
+        "@id": "node/1913789216",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4176657,
+          59.2891879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1925271890",
+      "properties": {
+        "@id": "node/1925271890",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3197377,
+          60.462546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1925322166",
+      "properties": {
+        "@id": "node/1925322166",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8239292,
+          59.9397195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1937388033",
+      "properties": {
+        "@id": "node/1937388033",
+        "addr:city": "Skårer",
+        "addr:housenumber": "55",
+        "addr:postcode": "1473",
+        "addr:street": "Skårersletta",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-21:00",
+        "phone": "67912980",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Skårer/1499468",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9535429,
+          59.9215821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1962185888",
+      "properties": {
+        "@id": "node/1962185888",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7523022,
+          59.9279192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1982629826",
+      "properties": {
+        "@id": "node/1982629826",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3970453,
+          62.574491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1997900769",
+      "properties": {
+        "@id": "node/1997900769",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 09:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.458416,
+          60.635455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2001111040",
+      "properties": {
+        "@id": "node/2001111040",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0828972,
+          59.2888424
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2040054525",
+      "properties": {
+        "@id": "node/2040054525",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-22:00;Su off",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8603089,
+          69.6900198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2102527852",
+      "properties": {
+        "@id": "node/2102527852",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7355231,
+          58.8654819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2110705707",
+      "properties": {
+        "@id": "node/2110705707",
+        "addr:housenumber": "8",
+        "addr:postcode": "2821",
+        "addr:street": "Marcus Thranes gate",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "http://rema.no/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6844778,
+          60.7989405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2112985822",
+      "properties": {
+        "@id": "node/2112985822",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.771043,
+          59.9439468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2202447756",
+      "properties": {
+        "@id": "node/2202447756",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2214911,
+          59.7310343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2260247230",
+      "properties": {
+        "@id": "node/2260247230",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5859861,
+          59.9187784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2275990844",
+      "properties": {
+        "@id": "node/2275990844",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4199395,
+          63.4304669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2278258606",
+      "properties": {
+        "@id": "node/2278258606",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.753397,
+          59.9389938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2296148215",
+      "properties": {
+        "@id": "node/2296148215",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7007193,
+          58.4177168
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2296978798",
+      "properties": {
+        "@id": "node/2296978798",
+        "addr:city": "Kyrksæterøra",
+        "addr:housenumber": "4",
+        "addr:postcode": "7200",
+        "addr:street": "Trondheimsveien",
+        "fax": "72 45 45 02",
+        "name": "Rema 1000",
+        "phone": "72 45 45 00",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0868518,
+          63.2909353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2345967377",
+      "properties": {
+        "@id": "node/2345967377",
+        "addr:city": "Lillestrøm",
+        "addr:housenumber": "1",
+        "addr:postcode": "2004",
+        "addr:street": "Kanalveien",
+        "brand": "Rema 1000",
+        "delivery": "no",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-23:00;Sa 08:00-21:00",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Kanalveien/1553828",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0454415,
+          59.9521426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2351909335",
+      "properties": {
+        "@id": "node/2351909335",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9955566,
+          69.6873549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2351909336",
+      "properties": {
+        "@id": "node/2351909336",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0635777,
+          69.7266037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2360953908",
+      "properties": {
+        "@id": "node/2360953908",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7186253,
+          61.9036718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2375529445",
+      "properties": {
+        "@id": "node/2375529445",
+        "addr:city": "Ørnes",
+        "addr:country": "NO",
+        "addr:housenumber": "16",
+        "addr:postcode": "8150",
+        "addr:street": "Chr. Tidemanns vei",
+        "amenity": "post_office",
+        "entrance": "yes",
+        "fax": "+47 757 54689",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-21:00",
+        "phone": "+47 757 54346",
+        "shop": "supermarket",
+        "website": "http://www.rema1000.no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7071405,
+          66.8736591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2405596704",
+      "properties": {
+        "@id": "node/2405596704",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3968884,
+          67.1022692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2406811794",
+      "properties": {
+        "@id": "node/2406811794",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7135261,
+          58.8255428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2440115468",
+      "properties": {
+        "@id": "node/2440115468",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0711606,
+          62.1441527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2462641577",
+      "properties": {
+        "@id": "node/2462641577",
+        "fixme": "position unprecise",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.546334,
+          61.7715343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2462641578",
+      "properties": {
+        "@id": "node/2462641578",
+        "fixme": "position unprecise",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7758585,
+          62.2790445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2475286453",
+      "properties": {
+        "@id": "node/2475286453",
+        "franchise": "Rema 1000",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3219331,
+          60.3985357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2476542845",
+      "properties": {
+        "@id": "node/2476542845",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7808169,
+          59.9382316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2500390763",
+      "properties": {
+        "@id": "node/2500390763",
+        "name": "Rema 1000",
+        "phone": "+47 22 62 37 80",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8397254,
+          59.8677176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2500959348",
+      "properties": {
+        "@id": "node/2500959348",
+        "name": "Rema 1000",
+        "shop": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4329306,
+          59.8332617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2627315000",
+      "properties": {
+        "@id": "node/2627315000",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7152381,
+          58.979422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2658036230",
+      "properties": {
+        "@id": "node/2658036230",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 8:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2193937,
+          69.576136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2698855834",
+      "properties": {
+        "@id": "node/2698855834",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3757868,
+          63.3595376
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2701222294",
+      "properties": {
+        "@id": "node/2701222294",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2135619,
+          61.7757717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2710524843",
+      "properties": {
+        "@id": "node/2710524843",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 06:00-23:00, Sa 07:00-21:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0002289,
+          60.4028257
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2748254515",
+      "properties": {
+        "@id": "node/2748254515",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2976962,
+          63.8735311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2785551301",
+      "properties": {
+        "@id": "node/2785551301",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "2",
+        "addr:postcode": "0181",
+        "addr:street": "Torggata",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+        "phone": "+4722411390",
+        "shop": "supermarket",
+        "website": "http://roma.no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7467281,
+          59.9135505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2795582466",
+      "properties": {
+        "@id": "node/2795582466",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "5",
+        "addr:postcode": "0680",
+        "addr:street": "Ryensvingen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8051268,
+          59.8929327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2795633445",
+      "properties": {
+        "@id": "node/2795633445",
+        "addr:city": "Egersund",
+        "addr:housenumber": "53",
+        "addr:postcode": "4372",
+        "addr:street": "Gamle Sokndalsveien",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0086174,
+          58.4384298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2795679019",
+      "properties": {
+        "@id": "node/2795679019",
+        "addr:city": "Randaberg",
+        "addr:housenumber": "310",
+        "addr:postcode": "4070",
+        "addr:street": "Randabergveien",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6441158,
+          58.9917389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2796247281",
+      "properties": {
+        "@id": "node/2796247281",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9313799,
+          59.214709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2796325156",
+      "properties": {
+        "@id": "node/2796325156",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.927163,
+          59.2130467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2861926381",
+      "properties": {
+        "@id": "node/2861926381",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1036489,
+          61.2325988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2879952358",
+      "properties": {
+        "@id": "node/2879952358",
+        "addr:housenumber": "5",
+        "addr:postcode": "2651",
+        "addr:street": "Fargerivegen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-20:00",
+        "shop": "supermarket",
+        "website": "www.rema.no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2219932,
+          61.2268931
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2902882997",
+      "properties": {
+        "@id": "node/2902882997",
+        "addr:housenumber": "113",
+        "addr:postcode": "2390",
+        "addr:street": "Storgata",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "www.rema.no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.702068,
+          60.9290558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2905986801",
+      "properties": {
+        "@id": "node/2905986801",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3991166,
+          63.4153755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2905989960",
+      "properties": {
+        "@id": "node/2905989960",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.16661,
+          59.5815834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2906221269",
+      "properties": {
+        "@id": "node/2906221269",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1472792,
+          61.9260086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2906236501",
+      "properties": {
+        "@id": "node/2906236501",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9860989,
+          61.9077821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2949121597",
+      "properties": {
+        "@id": "node/2949121597",
+        "addr:city": "Kristiansand S",
+        "addr:street": "Tordenskjolds gate",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9880829,
+          58.1469243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2952883037",
+      "properties": {
+        "@id": "node/2952883037",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4892952,
+          64.4694319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2958986046",
+      "properties": {
+        "@id": "node/2958986046",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3268944,
+          59.9197644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2968030050",
+      "properties": {
+        "@id": "node/2968030050",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4150242,
+          63.4341368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2968030051",
+      "properties": {
+        "@id": "node/2968030051",
+        "addr:city": "Trondheim",
+        "addr:housenumber": "7",
+        "addr:postcode": "7010",
+        "addr:street": "havnegata",
+        "name": "Rema 1000",
+        "opening_hours": "mo-fr 6-20:00  sa  9-18:00",
+        "phone": "73-51-45-10",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4042029,
+          63.4403602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2968031711",
+      "properties": {
+        "@id": "node/2968031711",
+        "addr:city": "Trondheim",
+        "addr:housenumber": "2",
+        "addr:postcode": "7037",
+        "addr:street": "Sluppenvegen",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4035367,
+          63.3986731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2982562778",
+      "properties": {
+        "@id": "node/2982562778",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5050252,
+          69.0641389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2982758445",
+      "properties": {
+        "@id": "node/2982758445",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5385435,
+          61.7708365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2990529184",
+      "properties": {
+        "@id": "node/2990529184",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1659066,
+          62.8543903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3007886108",
+      "properties": {
+        "@id": "node/3007886108",
+        "addr:city": "Strømmen",
+        "addr:housenumber": "10D",
+        "addr:postcode": "2010",
+        "addr:street": "Støperiveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-21:00",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Støperiveien/1553127"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0083813,
+          59.9469635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3013019481",
+      "properties": {
+        "@id": "node/3013019481",
+        "addr:city": "Oslo",
+        "addr:housenumber": "24",
+        "addr:postcode": "0473",
+        "addr:street": "Sandakerveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "phone": "22719189",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Torshov/1462277"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7615305,
+          59.9341201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3013732055",
+      "properties": {
+        "@id": "node/3013732055",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7622788,
+          59.9386379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3033464339",
+      "properties": {
+        "@id": "node/3033464339",
+        "addr:housenumber": "23",
+        "addr:street": "Ammerudveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 06:00-23:00",
+        "shop": "grocery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8713145,
+          59.9589244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3034226465",
+      "properties": {
+        "@id": "node/3034226465",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3773665,
+          59.1208951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3066654831",
+      "properties": {
+        "@id": "node/3066654831",
+        "brand": "Rema 1000",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9103461,
+          63.4478362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3069335568",
+      "properties": {
+        "@id": "node/3069335568",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.963492,
+          58.3209319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3094718196",
+      "properties": {
+        "@id": "node/3094718196",
+        "addr:city": "Strømmen",
+        "addr:country": "NO",
+        "addr:housenumber": "5",
+        "addr:postcode": "2010",
+        "addr:street": "Støperiveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-20:00",
+        "phone": "63801075",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Strømmen+Storsenter/1556291"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.007743,
+          59.948529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3097492388",
+      "properties": {
+        "@id": "node/3097492388",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-20:00",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Lade+Arena/1555725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.458537,
+          63.4419918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3098739984",
+      "properties": {
+        "@id": "node/3098739984",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9622543,
+          59.9275857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3115529843",
+      "properties": {
+        "@id": "node/3115529843",
+        "addr:city": "Halden",
+        "addr:housenumber": "29",
+        "addr:postcode": "1769",
+        "addr:street": "Iddeveien",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4093695,
+          59.1186824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3118668484",
+      "properties": {
+        "@id": "node/3118668484",
+        "addr:city": "Måløy",
+        "addr:housenumber": "36",
+        "addr:postcode": "6700",
+        "addr:street": "Sjøgata",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1155031,
+          61.9355827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3123859597",
+      "properties": {
+        "@id": "node/3123859597",
+        "addr:city": "Bodø",
+        "addr:housenumber": "10",
+        "addr:postcode": "8030",
+        "addr:street": "Fenesveien",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5920769,
+          67.2873152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3125281513",
+      "properties": {
+        "@id": "node/3125281513",
+        "addr:city": "Steinkjer",
+        "addr:housenumber": "51",
+        "addr:postcode": "7716",
+        "addr:street": "Ogndalsvegen",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5100751,
+          64.0167174
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3131466130",
+      "properties": {
+        "@id": "node/3131466130",
+        "addr:city": "Risør",
+        "addr:housenumber": "183",
+        "addr:postcode": "4950",
+        "addr:street": "Risørveien",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1769841,
+          58.7150596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3189733778",
+      "properties": {
+        "@id": "node/3189733778",
+        "addr:country": "NO",
+        "addr:housenumber": "1-11",
+        "addr:street": "Christian Krohgsgate",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7566509,
+          59.913923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3210871277",
+      "properties": {
+        "@id": "node/3210871277",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "36",
+        "addr:postcode": "0585",
+        "addr:street": "Lørenveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-21:00; Su 12:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7896717,
+          59.9315822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3261794160",
+      "properties": {
+        "@id": "node/3261794160",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0058465,
+          58.1479839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3309055214",
+      "properties": {
+        "@id": "node/3309055214",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7891562,
+          59.6649147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3324720972",
+      "properties": {
+        "@id": "node/3324720972",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4934242,
+          60.5270034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3388397724",
+      "properties": {
+        "@id": "node/3388397724",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4026844,
+          67.2975353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3413156838",
+      "properties": {
+        "@id": "node/3413156838",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00;Sa 08:00-20:00",
+        "phone": "+4778435411",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.2272162,
+          69.9596431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3428529838",
+      "properties": {
+        "@id": "node/3428529838",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "2",
+        "addr:postcode": "1063",
+        "addr:street": "Skansen terrasse",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "phone": "22328240",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Ellingsrud/1664258"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9079445,
+          59.9387681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3439458795",
+      "properties": {
+        "@id": "node/3439458795",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 09:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1616456,
+          60.7393331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3481458856",
+      "properties": {
+        "@id": "node/3481458856",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3422696,
+          60.1261093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3637932290",
+      "properties": {
+        "@id": "node/3637932290",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.190208,
+          59.2104049
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3662420184",
+      "properties": {
+        "@id": "node/3662420184",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 07:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2741531,
+          59.1282299
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3666621789",
+      "properties": {
+        "@id": "node/3666621789",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "8",
+        "addr:postcode": "1266",
+        "addr:street": "Hauketoveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+        "phone": "22617240",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Hauketo/1065559"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8045685,
+          59.8472104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3674029029",
+      "properties": {
+        "@id": "node/3674029029",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/butikker/rema-1000-vikhammer/1380161"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6261378,
+          63.4364297
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3682151785",
+      "properties": {
+        "@id": "node/3682151785",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 08:00-21:00;Su off",
+        "phone": "+47 77 76 22 36",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9758036,
+          70.0183915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3692730102",
+      "properties": {
+        "@id": "node/3692730102",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0601885,
+          59.0455629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3731926829",
+      "properties": {
+        "@id": "node/3731926829",
+        "addr:city": "Kongsberg",
+        "addr:housenumber": "4",
+        "addr:postcode": "3611",
+        "addr:street": "Stasjonsbakken",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "phone": "+47 32 73 67 25",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/butikker/rema-1000-kongsberg/1031328"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6527373,
+          59.6680218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3737461423",
+      "properties": {
+        "@id": "node/3737461423",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7595866,
+          59.3772704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3779605067",
+      "properties": {
+        "@id": "node/3779605067",
+        "addr:city": "Flisa",
+        "addr:housenumber": "1",
+        "addr:postcode": "2270",
+        "addr:street": "Frøyas gate",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0047723,
+          60.6119248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3782189567",
+      "properties": {
+        "@id": "node/3782189567",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3403015,
+          59.5523623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3787208372",
+      "properties": {
+        "@id": "node/3787208372",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9078889,
+          59.7728898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3824297281",
+      "properties": {
+        "@id": "node/3824297281",
+        "addr:city": "Lena",
+        "addr:housenumber": "18",
+        "addr:postcode": "2850",
+        "addr:street": "Vallevegen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.811373,
+          60.6751059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3827722522",
+      "properties": {
+        "@id": "node/3827722522",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4693298,
+          60.4286308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3868558974",
+      "properties": {
+        "@id": "node/3868558974",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.7031399,
+          61.2357438
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3882536916",
+      "properties": {
+        "@id": "node/3882536916",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-22:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9584427,
+          70.0532064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3932021154",
+      "properties": {
+        "@id": "node/3932021154",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9910967,
+          59.2083055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3934152270",
+      "properties": {
+        "@id": "node/3934152270",
+        "addr:city": "Bergen",
+        "addr:floor": "-1",
+        "addr:housenumber": "13",
+        "addr:postcode": "5013",
+        "addr:street": "Strandkaien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo- Sa 07:00-23:00",
+        "phone": "55 90 85 60",
+        "shop": "convenience",
+        "website": "http://www.rema.no/butikker/Bergen/REMA-1000-Kl%C3%B8verhuset/1490020",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.323185,
+          60.3944757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3942161715",
+      "properties": {
+        "@id": "node/3942161715",
+        "addr:floor": "-1",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3260282,
+          60.3928886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3946010561",
+      "properties": {
+        "@id": "node/3946010561",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3261696,
+          60.3886325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3961731167",
+      "properties": {
+        "@id": "node/3961731167",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3573067,
+          63.4315255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3962005399",
+      "properties": {
+        "@id": "node/3962005399",
+        "addr:floor": "-1",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00 ; Sa 08:00-21:00",
+        "phone": "55 31 53 99",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3319172,
+          60.3911404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3964605282",
+      "properties": {
+        "@id": "node/3964605282",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1448339,
+          61.5305126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4001578390",
+      "properties": {
+        "@id": "node/4001578390",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2514416,
+          59.1341691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4001578393",
+      "properties": {
+        "@id": "node/4001578393",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2404587,
+          59.1289879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4001578395",
+      "properties": {
+        "@id": "node/4001578395",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2139952,
+          59.1365971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4001578399",
+      "properties": {
+        "@id": "node/4001578399",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2229622,
+          59.1027989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4024182081",
+      "properties": {
+        "@id": "node/4024182081",
+        "addr:city": "Lillehammer",
+        "addr:housenumber": "2",
+        "addr:postcode": "2609",
+        "addr:street": "Nymosvingen",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4631139,
+          61.1169667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4043765974",
+      "properties": {
+        "@id": "node/4043765974",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1352759,
+          59.5847149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4075212709",
+      "properties": {
+        "@id": "node/4075212709",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9509182,
+          59.9440532
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4134849573",
+      "properties": {
+        "@id": "node/4134849573",
+        "addr:city": "Hommelvik",
+        "addr:housenumber": "20",
+        "addr:postcode": "7550",
+        "addr:street": "Havnevegen",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8100638,
+          63.4164582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4159423912",
+      "properties": {
+        "@id": "node/4159423912",
+        "addr:city": "Holmestrand",
+        "addr:housenumber": "1",
+        "addr:postcode": "3083",
+        "addr:street": "Våleveien",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3174639,
+          59.4753946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4209404297",
+      "properties": {
+        "@id": "node/4209404297",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0423529,
+          60.0000234
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4213098367",
+      "properties": {
+        "@id": "node/4213098367",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9326418,
+          60.8878063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4214873094",
+      "properties": {
+        "@id": "node/4214873094",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6059014,
+          62.4922889
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4294899648",
+      "properties": {
+        "@id": "node/4294899648",
+        "addr:city": "Gran",
+        "addr:housenumber": "3",
+        "addr:postcode": "2750",
+        "addr:street": "Morstadvegen",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5756065,
+          60.3531345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4306063737",
+      "properties": {
+        "@id": "node/4306063737",
+        "name": "Rema 1000",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8327611,
+          58.7783679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4343697794",
+      "properties": {
+        "@id": "node/4343697794",
+        "addr:city": "Oslo",
+        "addr:country": "NO",
+        "addr:housenumber": "17",
+        "addr:postcode": "0590",
+        "addr:street": "Årvollveien",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "phone": "22652777",
+        "shop": "supermarket",
+        "website": "https://www.rema.no/butikker/Oslo/rema-1000-arvoll/1963485"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8088261,
+          59.9450879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4348945904",
+      "properties": {
+        "@id": "node/4348945904",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8180968,
+          59.8020004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4377990827",
+      "properties": {
+        "@id": "node/4377990827",
+        "addr:city": "Billingstad",
+        "addr:housenumber": "11",
+        "addr:postcode": "1396",
+        "addr:street": "Billingstadsletta",
+        "name": "Rema 1000",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5009971,
+          59.8770229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4392633229",
+      "properties": {
+        "@id": "node/4392633229",
+        "name": "Rema 1000 Bremnes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1720553,
+          59.7934455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4419370011",
+      "properties": {
+        "@id": "node/4419370011",
+        "name": "Rema 1000 Sandved",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7218247,
+          58.8381133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24068251",
+      "properties": {
+        "@id": "way/24068251",
+        "addr:housenumber": "1",
+        "addr:street": "Cecilie Thoresens vei",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-00:00",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8070604,
+          59.8790796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/30676907",
+      "properties": {
+        "@id": "way/30676907",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "gps",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4649984,
+          63.4116264
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32942547",
+      "properties": {
+        "@id": "way/32942547",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 09:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.652977,
+          59.6725911
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/36163221",
+      "properties": {
+        "@id": "way/36163221",
+        "addr:city": "Hafrsfjord",
+        "addr:housenumber": "2",
+        "addr:postcode": "4046",
+        "addr:street": "Bråde",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6359883,
+          58.9564441
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/37392474",
+      "properties": {
+        "@id": "way/37392474",
+        "addr:city": "Flatåsen",
+        "addr:housenumber": "2B",
+        "addr:postcode": "7079",
+        "addr:street": "Øvre Flatåsveg",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3442709,
+          63.3725377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/42202259",
+      "properties": {
+        "@id": "way/42202259",
+        "addr:city": "Oslo",
+        "addr:housenumber": "52",
+        "addr:postcode": "0689",
+        "addr:street": "Bølerlia",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8521929,
+          59.8797062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/42739546",
+      "properties": {
+        "@id": "way/42739546",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2656664,
+          60.4743819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/47458841",
+      "properties": {
+        "@id": "way/47458841",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8522701,
+          63.2978082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/51750662",
+      "properties": {
+        "@id": "way/51750662",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0281994,
+          59.747604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/54216521",
+      "properties": {
+        "@id": "way/54216521",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6856316,
+          58.9830079
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/61919367",
+      "properties": {
+        "@id": "way/61919367",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9283047,
+          59.984531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/64901602",
+      "properties": {
+        "@id": "way/64901602",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-20:00",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/butikker/rema-1000-malvik-senter/1553244",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.756761,
+          63.4207601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/68082685",
+      "properties": {
+        "@id": "way/68082685",
+        "building": "yes",
+        "landuse": "commercial",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 09:00-22:00; Sa 09:00-20:00",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7420233,
+          58.9470956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/70541140",
+      "properties": {
+        "@id": "way/70541140",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-22:00; Sa 08:00-20:00",
+        "shop": "supermarket",
+        "website": "http://rema1000.no/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8256576,
+          59.9136747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/83530356",
+      "properties": {
+        "@id": "way/83530356",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "GPS",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0518392,
+          59.7234311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/85595114",
+      "properties": {
+        "@id": "way/85595114",
+        "addr:city": "Nittedal",
+        "addr:housenumber": "165",
+        "addr:postcode": "1482",
+        "addr:street": "Mattias Skytters vei",
+        "building": "supermarket",
+        "name": "Rema 1000",
+        "phone": "+47 67 05 01 44",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8807066,
+          60.0459276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/87507582",
+      "properties": {
+        "@id": "way/87507582",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6708721,
+          59.1349387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/89763234",
+      "properties": {
+        "@id": "way/89763234",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7134229,
+          58.8255038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/92367749",
+      "properties": {
+        "@id": "way/92367749",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2778395,
+          59.3537702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/94090820",
+      "properties": {
+        "@id": "way/94090820",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "source": "Bing",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0668801,
+          59.2952356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/95389616",
+      "properties": {
+        "@id": "way/95389616",
+        "building": "retail",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8910091,
+          59.2111312
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/96083085",
+      "properties": {
+        "@id": "way/96083085",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4141012,
+          68.4074109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/103475701",
+      "properties": {
+        "@id": "way/103475701",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7601662,
+          58.8659606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/106154334",
+      "properties": {
+        "@id": "way/106154334",
+        "addr:city": "Drammen",
+        "addr:housenumber": "54A",
+        "addr:postcode": "3048",
+        "addr:street": "Professor Smiths alle",
+        "area": "yes",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00, Sa 08:00-21:00",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Gulskogen/1497564",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1623983,
+          59.7420154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/115014640",
+      "properties": {
+        "@id": "way/115014640",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6908361,
+          59.0458156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/116857159",
+      "properties": {
+        "@id": "way/116857159",
+        "building": "yes",
+        "building:part": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5356619,
+          68.7908094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/122316979",
+      "properties": {
+        "@id": "way/122316979",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8033709,
+          59.8979966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/128145392",
+      "properties": {
+        "@id": "way/128145392",
+        "building": "yes",
+        "fixme": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6118575,
+          58.9656119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/128982645",
+      "properties": {
+        "@id": "way/128982645",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6853204,
+          59.4143746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/129761061",
+      "properties": {
+        "@id": "way/129761061",
+        "building": "supermarket",
+        "name": "Rema 1000",
+        "shop": "variety_store",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0634554,
+          69.7266648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/136481126",
+      "properties": {
+        "@id": "way/136481126",
+        "building": "commercial",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "knowledge",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3857862,
+          59.1262712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/136988882",
+      "properties": {
+        "@id": "way/136988882",
+        "building": "commercial",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "knowledge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4444775,
+          59.1262734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137692419",
+      "properties": {
+        "@id": "way/137692419",
+        "addr:city": "Oslo",
+        "addr:housenumber": "10",
+        "addr:postcode": "0275",
+        "addr:street": "Hoffsveien",
+        "building": "retail",
+        "layer": "-1",
+        "name": "Rema 1000",
+        "opening_hours": "06-24 (06-24)",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6743532,
+          59.9257482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/140784514",
+      "properties": {
+        "@id": "way/140784514",
+        "brand": "Rema 1000",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8479015,
+          59.9014592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151631797",
+      "properties": {
+        "@id": "way/151631797",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1933376,
+          65.8635622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/153340162",
+      "properties": {
+        "@id": "way/153340162",
+        "addr:city": "Bodø",
+        "addr:country": "NO",
+        "addr:housenumber": "41",
+        "addr:postcode": "8008",
+        "addr:street": "Gidsken Jacobsensvei",
+        "building": "yes",
+        "description": "Åpningstider Hverdager: 08:00 - 23:00, Lørdag 08:00 - 20:00, Søndag: Stengt",
+        "email": "test@rimitest.no",
+        "fax": "(+47) 75 51 00 11",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-23:00 Sa 08:00-20:00; Su off",
+        "phone": "(+47) 75 51 00 10",
+        "shop": "supermarket",
+        "website": "http://www.rema.no/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4197459,
+          67.2767084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/158294463",
+      "properties": {
+        "@id": "way/158294463",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 07:00-22:00",
+        "shop": "supermarket",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8220071,
+          59.8662124
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/158623410",
+      "properties": {
+        "@id": "way/158623410",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5779783,
+          59.2103712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/158857159",
+      "properties": {
+        "@id": "way/158857159",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8139689,
+          68.5012947
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/162129205",
+      "properties": {
+        "@id": "way/162129205",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0425327,
+          60.0000784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/162152872",
+      "properties": {
+        "@id": "way/162152872",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0803179,
+          68.9145757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/164448115",
+      "properties": {
+        "@id": "way/164448115",
+        "int_name": "Rema 1000 Gullhella",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Gullhella/260549",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.448119,
+          59.8103666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/167245667",
+      "properties": {
+        "@id": "way/167245667",
+        "brand": "REMA 1000",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "website": "http://butikk.rema.no/REMA+1000+Vanse/1554430",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6905942,
+          58.098144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/167374191",
+      "properties": {
+        "@id": "way/167374191",
+        "addr:city": "Oslo",
+        "addr:housenumber": "6A",
+        "addr:postcode": "1275",
+        "addr:street": "Slimeveien",
+        "name": "Rema 1000 Bjørndal",
+        "opening_hours": "Mon-Sat: 7-23",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8383024,
+          59.8325219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/168870233",
+      "properties": {
+        "@id": "way/168870233",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7455227,
+          67.2963536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/173474451",
+      "properties": {
+        "@id": "way/173474451",
+        "building": "retail",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4953824,
+          59.7734163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/174000452",
+      "properties": {
+        "@id": "way/174000452",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6458253,
+          60.7841008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/175835644",
+      "properties": {
+        "@id": "way/175835644",
+        "addr:city": "Brønnøysund",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2207621,
+          65.4806072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/199419679",
+      "properties": {
+        "@id": "way/199419679",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4945395,
+          63.4204567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/207515141",
+      "properties": {
+        "@id": "way/207515141",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3125074,
+          63.7512035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228055837",
+      "properties": {
+        "@id": "way/228055837",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "Survey",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9107708,
+          59.2279021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/230232045",
+      "properties": {
+        "@id": "way/230232045",
+        "addr:housenumber": "4",
+        "addr:street": "Skistua",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00;Sa 07:00-23:00",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4457744,
+          68.4383442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/230509248",
+      "properties": {
+        "@id": "way/230509248",
+        "addr:city": "Glomfjord",
+        "addr:country": "NO",
+        "addr:housenumber": "1",
+        "addr:postcode": "81600",
+        "addr:street": "Ørnesveien",
+        "building": "commercial",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-22:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9422913,
+          66.8166423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/233557739",
+      "properties": {
+        "@id": "way/233557739",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1353687,
+          59.5848139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/236105414",
+      "properties": {
+        "@id": "way/236105414",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3776728,
+          63.3824643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/244098906",
+      "properties": {
+        "@id": "way/244098906",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1890721,
+          62.4413589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/251353500",
+      "properties": {
+        "@id": "way/251353500",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3696882,
+          60.3079391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/254465256",
+      "properties": {
+        "@id": "way/254465256",
+        "building": "yes",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7515237,
+          58.4628948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/266458971",
+      "properties": {
+        "@id": "way/266458971",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7248058,
+          58.8735891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/268059879",
+      "properties": {
+        "@id": "way/268059879",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1788324,
+          59.5862181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/268591497",
+      "properties": {
+        "@id": "way/268591497",
+        "building": "retail",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5740521,
+          58.339433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/288315848",
+      "properties": {
+        "@id": "way/288315848",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4920026,
+          59.4165218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/291775703",
+      "properties": {
+        "@id": "way/291775703",
+        "building": "yes",
+        "name": "Rema 1000",
+        "note": "Old opening_hours=Mo-Fr 07:00-22:00; Sa 08:00-21:00",
+        "opening_hours": "Mo-Sa 07:00-23:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.996598,
+          59.047422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/314538493",
+      "properties": {
+        "@id": "way/314538493",
+        "addr:city": "Vinstra",
+        "addr:housenumber": "5",
+        "addr:postcode": "2640",
+        "addr:street": "Lomovegen",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "Kartverket N50",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7333449,
+          61.5939712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/319018828",
+      "properties": {
+        "@id": "way/319018828",
+        "brand": "Rema 1000",
+        "building": "commercial",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5742525,
+          68.5845488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/324452021",
+      "properties": {
+        "@id": "way/324452021",
+        "building": "commercial",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5632004,
+          68.7401858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/326553134",
+      "properties": {
+        "@id": "way/326553134",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9435735,
+          62.3091997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/379539442",
+      "properties": {
+        "@id": "way/379539442",
+        "building": "retail",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.4372253,
+          60.6584387
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/381855587",
+      "properties": {
+        "@id": "way/381855587",
+        "amenity": "post_office",
+        "building": "retail",
+        "name": "Rema 1000",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-21:00",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0773858,
+          60.3308988
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/390537909",
+      "properties": {
+        "@id": "way/390537909",
+        "building": "retail",
+        "building:levels": "2",
+        "height": "5",
+        "name": "Rema 1000",
+        "opening_hours": "07:00-23:00,09:00-20:00",
+        "shop": "convenience",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8518217,
+          62.3376677
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/392340448",
+      "properties": {
+        "@id": "way/392340448",
+        "addr:city": "Ålesund",
+        "addr:housenumber": "57",
+        "addr:postcode": "6005",
+        "addr:street": "Nedre Strandgate",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "source": "Statens kartverk - Topografisk Norgeskart",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.1383705,
+          62.4702246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/407761156",
+      "properties": {
+        "@id": "way/407761156",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1668861,
+          59.5816588
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/413990963",
+      "properties": {
+        "@id": "way/413990963",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0143266,
+          60.2208065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/416513640",
+      "properties": {
+        "@id": "way/416513640",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "convenience",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3420325,
+          60.1257419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/421591855",
+      "properties": {
+        "@id": "way/421591855",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0471584,
+          61.59868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/422751455",
+      "properties": {
+        "@id": "way/422751455",
+        "building": "yes",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4919769,
+          64.0190699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/427099552",
+      "properties": {
+        "@id": "way/427099552",
+        "building": "supermarket",
+        "name": "Rema 1000",
+        "shop": "supermarket",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4136568,
+          68.7083051
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "leaflet-mouse-position@^1.0.1",
+        "scope": null,
+        "escapedName": "leaflet-mouse-position",
+        "name": "leaflet-mouse-position",
+        "rawSpec": "^1.0.1",
+        "spec": ">=1.0.1 <2.0.0",
+        "type": "range"
+      },
+      "/Users/joakimtveithusefest/Desktop/EXPLORER/explorer"
+    ]
+  ],
+  "_from": "leaflet-mouse-position@>=1.0.1 <2.0.0",
+  "_id": "leaflet-mouse-position@1.0.1",
+  "_inCache": true,
+  "_location": "/leaflet-mouse-position",
+  "_nodeVersion": "0.12.7",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/leaflet-mouse-position-1.0.1.tgz_1465973909684_0.9214612480718642"
+  },
+  "_npmUser": {
+    "name": "danwild",
+    "email": "danwild@y7mail.com.au"
+  },
+  "_npmVersion": "2.13.5",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "leaflet-mouse-position@^1.0.1",
+    "scope": null,
+    "escapedName": "leaflet-mouse-position",
+    "name": "leaflet-mouse-position",
+    "rawSpec": "^1.0.1",
+    "spec": ">=1.0.1 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/leaflet-mouse-position/-/leaflet-mouse-position-1.0.1.tgz",
+  "_shasum": "cda6c61124ce9ff6d0754528ca1ec56b1400933d",
+  "_shrinkwrap": null,
+  "_spec": "leaflet-mouse-position@^1.0.1",
+  "_where": "/Users/joakimtveithusefest/Desktop/EXPLORER/explorer",
+  "author": {
+    "name": "https://github.com/ardhi"
+  },
+  "bugs": {
+    "url": "https://github.com/danwild/Leaflet.MousePosition/issues"
+  },
+  "dependencies": {},
+  "description": "An npm wrapper for Ardhi Lukianto’s Leaflet.MousePosition plugin",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "cda6c61124ce9ff6d0754528ca1ec56b1400933d",
+    "tarball": "https://registry.npmjs.org/leaflet-mouse-position/-/leaflet-mouse-position-1.0.1.tgz"
+  },
+  "gitHead": "6e9c60021029e63088b96efdc37a1104b30d1903",
+  "homepage": "https://github.com/danwild/Leaflet.MousePosition#readme",
+  "keywords": [
+    "leaflet",
+    "leafletjs"
+  ],
+  "license": "MIT",
+  "main": "src/L.Control.MousePosition.js",
+  "maintainers": [
+    {
+      "name": "danwild",
+      "email": "danwild@y7mail.com.au"
+    }
+  ],
+  "name": "leaflet-mouse-position",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danwild/Leaflet.MousePosition.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}

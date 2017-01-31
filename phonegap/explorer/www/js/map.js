@@ -13,22 +13,6 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
     accessToken: 'pk.eyJ1IjoiZWlyaWthYSIsImEiOiJjaXV3eTVxMTgwMDE5MzN0OXJpcXdkdW0wIn0.4bKwcNP6q5WOV62P7ldSfw'
 }).addTo(map);
 
-
-var remaIcon = L.icon({
-  iconUrl: 'icon/rema1000.png',
-  iconSize:     [20, 20]
-});
-
-// Rema datasett, remove?
-var rema = L.geoJson.ajax("data/rema 1000.geojson",
-    {middleware:function(data) {
-      var test = L.geoJson(data, {
-        onEachFeature: function (feature, layer) {
-          layer.setIcon(remaIcon);
-        }
-      });
-    }});
-
 // TODO: cluster point datasets, leaflet marker cluster
 
 // Esri plugin for accessing ArcGIS REAT API
@@ -73,119 +57,65 @@ var mask = L.geoJSON(startPolygon, {style: myStyle}).getLayers()[0];
 overlay.addLayer(mask);
 
 
-function differenciate(buffer, difflayer){
+function differenciate(buffer, difflayer) {
   return turf.difference(difflayer, buffer);
 }
 
-map.on("mousemove", function(mouseEvent){
+/*map.on("mousemove", function(mouseEvent){
   onSuccess2(mouseEvent.latlng);
-});
+  console.log(mouseEvent.latlng)
+});*/
 
-function onSuccess2(latlng){
-  var point = reproject(
-      {
-        "type": "Feature",
-        "properties": {},
-        "geometry": {
-          "type": "Point",
-          "coordinates": [latlng.lng, latlng.lat]
-        }
-      },
-      "WGS84", "EPSG:3857");
+var onSuccess = function(position) {
+    alert('Latitude: '          + position.coords.latitude          + '\n' +
+          'Longitude: '         + position.coords.longitude         + '\n' +
+          'Altitude: '          + position.coords.altitude          + '\n' +
+          'Accuracy: '          + position.coords.accuracy          + '\n' +
+          'Altitude Accuracy: ' + position.coords.altitudeAccuracy  + '\n' +
+          'Heading: '           + position.coords.heading           + '\n' +
+          'Speed: '             + position.coords.speed             + '\n' +
+          'Timestamp: '         + position.timestamp                + '\n');
 
+          map.setView([position.coords.latitude, position.coords.longitude], 14)
 
-  var buffer = turf.buffer(point,100000);
-  // FIXME: Somethin is weird with this distance
-  // buff =  reproject(buffer, "WGS84", "EPSG:3857");
-
-  var projmask = reproject(
-      mask.toGeoJSON(),
-      "WGS84", "EPSG:3857");
-
-  var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
-  overlay.removeLayer(mask);
-
-  mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
-  overlay.addLayer(mask);
+          var point = reproject(
+              {
+                "type": "Feature",
+                "properties": {},
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [position.coords.longitude, position.coords.latitude]
+                }
+              },
+              "WGS84", "EPSG:3857");
 
 
+          var buffer = turf.buffer(point, 100000);
+          // FIXME: Somethin is weird with this distance
+          // buff =  reproject(buffer, "WGS84", "EPSG:3857");
 
-  var exploredArea = (boxArea - turf.area(temp_difflayer));
-  console.log((exploredArea/norwayArea)*100);
+          var projmask = reproject(
+              mask.toGeoJSON(),
+              "WGS84", "EPSG:3857");
+
+          var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
+          overlay.removeLayer(mask);
+
+          mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
+          overlay.addLayer(mask);
+
+          var exploredArea = (boxArea - turf.area(temp_difflayer));
+          console.log((exploredArea/norwayArea)*100);
+};
+
+// onError Callback receives a PositionError object
+//
+function onError(error) {
+    alert('code: '    + error.code    + '\n' +
+          'message: ' + error.message + '\n');
 }
 
-
-
-var pos = L.control.coordinates({
-  position:"bottomleft",
-  decimals:4,
-  decimalSeperator:",",
-  labelTemplateLat:"Latitude: {y}",
-  labelTemplateLng:"Longitude {x}",
-  useLatLngOrder: true
-}).addTo(map);
-
-
-/*
- navigator.geolocation.getCurrentPosition(onSuccess,
- onError,
- {maximumAge: 10000, timeout: 5000, enableHighAccuracy: true,
- interval: 6000});
-
- function onSuccess(pos){
- var lat = pos.coords.latitude;
- var lon = pos.coords.longitude;
-
- var point = {
- "type": "Feature",
- "properties": {},
- "geometry": {
- "type": "Point",
- "coordinates": [lon, lat]
- }
- };
- var bufferStyle = {"color": "#ff0000"};
- var buffer = turf.buffer(point,100000);
- // L.geoJSON(buffer, {style:bufferStyle}).addTo(map);
- var projmask = reproject(
- mask.toGeoJSON(),
- "WGS84", "EPSG:3857");
- var temp_difflayer = reproject(differenciate(buffer, projmask), "EPSG:3857", "WGS84");
- console.log(temp_difflayer);
- overlay.removeLayer(mask);
-
- mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
- overlay.addLayer(mask);
- console.log(turf.area(temp_difflayer));
- console.log(boxArea);
- var exploredArea = (boxArea - turf.area(temp_difflayer));
- console.log(exploredArea);
- console.log((exploredArea/norwayArea)*100);
- // console.log(area);
-
- }
- function onError(){
- alert('Noe gikk feil');
- }
- */
-
-
-// var test =$.getJSON("data/norge_rundt_geopos.json", function(result){
-//     $.each(result, function(i, field){
-//       var nrk = ([field.Lat, field.Lng]);
-//       // var markers = L.markerClusterGroup();
-//       // markers.addLayer(L.marker(nrk));
-//       // markers.addTo(map);
-//       var WFSlayer = L.geoJson(nrk,
-//           {
-//             var markers = L.markerClusterGroup();
-//             markers.addLayer(WFSlayer);
-//         // map.addLayer(markers);
-//       // L.marker([field.])
-//     });
-// });
-
-
+navigator.geolocation.getCurrentPosition(onSuccess, onError);
 
 
 // TODO: Add leaflet mini map

@@ -79,6 +79,7 @@ function differenciate(buffer, difflayer){
 
 map.on("mousemove", function(mouseEvent){
   onSuccess2(mouseEvent.latlng);
+  console.log(mouseEvent.latlng)
 });
 
 function onSuccess2(latlng){
@@ -94,7 +95,7 @@ function onSuccess2(latlng){
       "WGS84", "EPSG:3857");
 
 
-  var buffer = turf.buffer(point,100000);
+  var buffer = turf.buffer(point,10000);
   // FIXME: Somethin is weird with this distance
   // buff =  reproject(buffer, "WGS84", "EPSG:3857");
 
@@ -108,12 +109,9 @@ function onSuccess2(latlng){
   mask = L.geoJSON(temp_difflayer, {style: myStyle}).getLayers()[0];
   overlay.addLayer(mask);
 
-
-
   var exploredArea = (boxArea - turf.area(temp_difflayer));
   console.log((exploredArea/norwayArea)*100);
 }
-
 
 
 var pos = L.control.coordinates({
