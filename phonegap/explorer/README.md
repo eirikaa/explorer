@@ -1,14 +1,4 @@
-# A Blank PhoneGap App
+# Explorer
 
-## Usage
-
-### PhoneGap CLI
-
-    $ phonegap create my-app --template blank
-
-### Desktop
-
-In your browser, open the file:
-
-    /www/index.html
-
+###TODO
+add Android platform
